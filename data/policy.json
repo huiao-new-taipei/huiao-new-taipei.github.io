@@ -1,0 +1,511 @@
+{
+  "meta": {
+    "person": "蘇巧慧",
+    "nominationDate": "2025-11-26",
+    "nominationSource": "https://www.dpp.org.tw/content_print/media/11384",
+    "retrievedAt": "2026-10-21T06:02:19.619145+00:00",
+    "pageCount": 14,
+    "indexUrls": [
+      "https://chiao.tw/policies",
+      "https://chiao.tw/policies?archive_page=2"
+    ],
+    "method": "依官網兩頁索引全部14套案正文，各套案指定一個mainTopic並等權；不依篇幅、措施數或預算加權。保留跨類內容與替代分類，沒有為拉高或降低差異調整分類。",
+    "coverageNote": "僅比較擷取當時官網已列的14個政策套案頁；可能重複同一措施，並非所有競選發言、逐項政策、預算或施政成效。"
+  },
+  "policies": [
+    {
+      "id": "su-policy-01",
+      "title": "六大長幼福利政見",
+      "url": "https://chiao.tw/policies/%e5%85%ad%e5%a4%a7%e9%95%b7%e5%b9%bc%e7%a6%8f%e5%88%a9%e6%94%bf%e8%a6%8b",
+      "sourceFile": "research/su-policies/policy-01.html",
+      "textFile": "research/su-policies/policy-01.txt",
+      "mainTopic": "care",
+      "comparisonTopic": "care",
+      "topics": [
+        "care",
+        "health",
+        "education",
+        "mobility"
+      ],
+      "summary": "幼兒就醫與疫苗、早產兒津貼、長者假牙與敬老卡，並納入學童午餐。",
+      "classificationRationale": "跨年齡家庭福利與支出支持為整頁共同目標；醫療、就學與交通是措施領域。",
+      "alternativeMainTopics": [
+        "health",
+        "education",
+        "mobility"
+      ],
+      "classificationAmbiguity": "high",
+      "date": null,
+      "dateNote": "正文未標示可核對的首次發表日；網站metadata日期另存，不當成政見提出日。",
+      "metadataPublishedAt": "2026-01-13T00:00:00+08:00",
+      "metadataModifiedAt": "2026-09-29T17:14:36+08:00",
+      "retrievedAt": "2026-10-21T06:02:12.508437+00:00",
+      "sourceSHA256": "ff6d337c55330af699e5290a90d0fb87331e75a5761b3277bff5b5b79834c97f",
+      "sourceType": "候選人官方競選政策頁"
+    },
+    {
+      "id": "su-policy-02",
+      "title": "三大家庭照顧政見",
+      "url": "https://chiao.tw/policies/%e4%b8%89%e5%a4%a7%e5%ae%b6%e5%ba%ad%e7%85%a7%e9%a1%a7%e6%94%bf%e8%a6%8b",
+      "sourceFile": "research/su-policies/policy-02.html",
+      "textFile": "research/su-policies/policy-02.txt",
+      "mainTopic": "care",
+      "comparisonTopic": "care",
+      "topics": [
+        "care",
+        "work",
+        "health"
+      ],
+      "summary": "整合職業照顧者支持、托育服務與兒童友善空間，以及長者居家、住宿與緊急照顧。",
+      "classificationRationale": "以家庭育兒及長者照顧服務為核心，照顧工作待遇是配套。",
+      "alternativeMainTopics": [
+        "work",
+        "health"
+      ],
+      "classificationAmbiguity": "medium",
+      "date": null,
+      "dateNote": "正文未標示可核對的首次發表日；網站metadata日期另存，不當成政見提出日。",
+      "metadataPublishedAt": "2026-01-12T00:00:44+08:00",
+      "metadataModifiedAt": "2026-10-01T13:40:12+08:00",
+      "retrievedAt": "2026-10-21T06:02:13.054001+00:00",
+      "sourceSHA256": "e34411c85b0323abf6f7ba92bdb56abc56fcb55bead6f5328ef4454ea41a6784",
+      "sourceType": "候選人官方競選政策頁"
+    },
+    {
+      "id": "su-policy-03",
+      "title": "新北觀光政見：新皇冠計畫",
+      "url": "https://chiao.tw/policies/%e6%96%b0%e7%9a%87%e5%86%a0%e6%b5%b7%e5%b2%b8%e8%a8%88%e7%95%ab",
+      "sourceFile": "research/su-policies/policy-03.html",
+      "textFile": "research/su-policies/policy-03.txt",
+      "mainTopic": "economy",
+      "comparisonTopic": "economy",
+      "topics": [
+        "economy",
+        "culture",
+        "mobility",
+        "environment"
+      ],
+      "summary": "串連沿海八區，以漁港改造、旅遊交通與場館活化建立觀光路線。",
+      "classificationRationale": "正文以國際旅遊品牌與觀光發展為總目標；交通、休閒與場館是手段。",
+      "alternativeMainTopics": [
+        "culture",
+        "mobility",
+        "environment"
+      ],
+      "classificationAmbiguity": "high",
+      "date": null,
+      "dateNote": "正文未標示可核對的首次發表日；網站metadata日期另存，不當成政見提出日。",
+      "metadataPublishedAt": "2026-01-11T00:00:33+08:00",
+      "metadataModifiedAt": "2026-09-30T23:25:52+08:00",
+      "retrievedAt": "2026-10-21T06:02:13.588714+00:00",
+      "sourceSHA256": "0b20b7488264286bf58a813db0884a91abe8ce946c1cd18c3acc66360f86d315",
+      "sourceType": "候選人官方競選政策頁"
+    },
+    {
+      "id": "su-policy-04",
+      "title": "新北觀光政見：鑽石山城計畫",
+      "url": "https://chiao.tw/policies/%e9%91%bd%e7%9f%b3%e5%b1%b1%e5%9f%8e%e8%a8%88%e7%95%ab",
+      "sourceFile": "research/su-policies/policy-04.html",
+      "textFile": "research/su-policies/policy-04.txt",
+      "mainTopic": "economy",
+      "comparisonTopic": "economy",
+      "topics": [
+        "economy",
+        "culture",
+        "mobility"
+      ],
+      "summary": "結合步道、鐵道、礦業遺產、茶文化及老街，發展山城旅遊與地方消費。",
+      "classificationRationale": "五大策略均收束為深度旅遊品牌及體驗經濟；文化保存與休閒也是合理分類。",
+      "alternativeMainTopics": [
+        "culture",
+        "mobility"
+      ],
+      "classificationAmbiguity": "high",
+      "date": null,
+      "dateNote": "正文未標示可核對的首次發表日；網站metadata日期另存，不當成政見提出日。",
+      "metadataPublishedAt": "2026-01-10T00:00:47+08:00",
+      "metadataModifiedAt": "2026-10-09T00:46:02+08:00",
+      "retrievedAt": "2026-10-21T06:02:14.108804+00:00",
+      "sourceSHA256": "21c4c52afd7dd4f5a647dac08246a4ae32e3a680e887a78488e7e2b9ffd464ce",
+      "sourceType": "候選人官方競選政策頁"
+    },
+    {
+      "id": "su-policy-05",
+      "title": "四大青年支持政見",
+      "url": "https://chiao.tw/policies/%e5%9b%9b%e5%a4%a7%e9%9d%92%e5%b9%b4%e6%94%af%e6%8c%81%e6%94%bf%e8%a6%8b",
+      "sourceFile": "research/su-policies/policy-05.html",
+      "textFile": "research/su-policies/policy-05.txt",
+      "mainTopic": "economy",
+      "comparisonTopic": "economy",
+      "topics": [
+        "economy",
+        "work",
+        "education",
+        "health",
+        "digital"
+      ],
+      "summary": "提供青年創業課程、資金、營運空間與數位工具，並設職涯及身心支持。",
+      "classificationRationale": "四支柱以微型創業、青農與新創空間為主體；不是單純學校教育或AI政策。",
+      "alternativeMainTopics": [
+        "work",
+        "education",
+        "health",
+        "digital"
+      ],
+      "classificationAmbiguity": "high",
+      "date": null,
+      "dateNote": "正文未標示可核對的首次發表日；網站metadata日期另存，不當成政見提出日。",
+      "metadataPublishedAt": "2026-01-10T00:00:12+08:00",
+      "metadataModifiedAt": "2026-09-29T17:14:08+08:00",
+      "retrievedAt": "2026-10-21T06:02:14.766734+00:00",
+      "sourceSHA256": "654551491435792313e8aacf8f45064a6bb57de49dec222c7a6755f5d8d142f9",
+      "sourceType": "候選人官方競選政策頁"
+    },
+    {
+      "id": "su-policy-06",
+      "title": "都更與住宅政見",
+      "url": "https://chiao.tw/policies/%e9%83%bd%e6%9b%b4%e8%88%87%e4%bd%8f%e5%ae%85%e6%94%bf%e8%a6%8b",
+      "sourceFile": "research/su-policies/policy-06.html",
+      "textFile": "research/su-policies/policy-06.txt",
+      "mainTopic": "economy",
+      "comparisonTopic": "economy",
+      "topics": [
+        "economy",
+        "care",
+        "governance",
+        "mobility"
+      ],
+      "summary": "擴大都更組織與審議效率，推動青年育兒、長者及學生租屋方案。",
+      "classificationRationale": "直接改革對象為都市更新與住宅供給；新設機關及AI是執行工具。",
+      "alternativeMainTopics": [
+        "care",
+        "governance",
+        "mobility"
+      ],
+      "classificationAmbiguity": "medium",
+      "date": null,
+      "dateNote": "正文未標示可核對的首次發表日；網站metadata日期另存，不當成政見提出日。",
+      "metadataPublishedAt": "2026-01-09T12:00:25+08:00",
+      "metadataModifiedAt": "2026-10-06T09:54:27+08:00",
+      "retrievedAt": "2026-10-21T06:02:15.286277+00:00",
+      "sourceSHA256": "0cd4074a873422564eb5fd7103377aee5678318d80a3ca55f0e28b7c04683b27",
+      "sourceType": "候選人官方競選政策頁"
+    },
+    {
+      "id": "su-policy-07",
+      "title": "三大照顧寵物政見",
+      "url": "https://chiao.tw/policies/%e4%b8%89%e5%a4%a7%e7%85%a7%e9%a1%a7%e5%af%b5%e7%89%a9%e6%94%bf%e8%a6%8b",
+      "sourceFile": "research/su-policies/policy-07.html",
+      "textFile": "research/su-policies/policy-07.txt",
+      "mainTopic": "environment",
+      "comparisonTopic": "environment",
+      "topics": [
+        "environment",
+        "health",
+        "economy",
+        "mobility"
+      ],
+      "summary": "擴充寵物醫療與照護、友善運輸和公園，並提升動物之家救援與認養。",
+      "classificationRationale": "按動物福利與保護的直接對象分類，與主提動保法同口徑；不能因使用醫療字眼全歸人類健康。",
+      "alternativeMainTopics": [
+        "health",
+        "economy",
+        "mobility"
+      ],
+      "classificationAmbiguity": "medium",
+      "date": null,
+      "dateNote": "正文未標示可核對的首次發表日；網站metadata日期另存，不當成政見提出日。",
+      "metadataPublishedAt": "2026-01-08T00:00:24+08:00",
+      "metadataModifiedAt": "2026-10-08T00:25:17+08:00",
+      "retrievedAt": "2026-10-21T06:02:15.823482+00:00",
+      "sourceSHA256": "a73f5523551cc6dffc7bebc64e634bbcecafd56f4bd6195adbd2c8b17ef770b6",
+      "sourceType": "候選人官方競選政策頁"
+    },
+    {
+      "id": "su-policy-08",
+      "title": "產業升級四大支柱政見",
+      "url": "https://chiao.tw/policies/%e7%94%a2%e6%a5%ad%e5%8d%87%e7%b4%9a%e5%9b%9b%e5%a4%a7%e6%94%af%e6%9f%b1%e6%94%bf%e8%a6%8b",
+      "sourceFile": "research/su-policies/policy-08.html",
+      "textFile": "research/su-policies/policy-08.txt",
+      "mainTopic": "economy",
+      "comparisonTopic": "economy",
+      "topics": [
+        "economy",
+        "digital",
+        "governance",
+        "culture",
+        "environment"
+      ],
+      "summary": "推動傳產加值、科技園區、商圈與農漁品牌，並規劃AI算力及行政應用。",
+      "classificationRationale": "四大支柱的整體目標是產業升級；AI與市政簡化是其中一支柱。",
+      "alternativeMainTopics": [
+        "digital",
+        "governance",
+        "culture",
+        "environment"
+      ],
+      "classificationAmbiguity": "medium",
+      "date": null,
+      "dateNote": "正文未標示可核對的首次發表日；網站metadata日期另存，不當成政見提出日。",
+      "metadataPublishedAt": "2026-01-07T00:00:19+08:00",
+      "metadataModifiedAt": "2026-09-29T17:16:39+08:00",
+      "retrievedAt": "2026-10-21T06:02:16.361685+00:00",
+      "sourceSHA256": "53147aea19be56565cfb1372251415146f4bb8e4911a9b0b07083bd51b027740",
+      "sourceType": "候選人官方競選政策頁"
+    },
+    {
+      "id": "su-policy-09",
+      "title": "勞工政見",
+      "url": "https://chiao.tw/policies/%e5%8b%9e%e5%b7%a5%e6%94%bf%e8%a6%8b",
+      "sourceFile": "research/su-policies/policy-09.html",
+      "textFile": "research/su-policies/policy-09.txt",
+      "mainTopic": "work",
+      "comparisonTopic": "work",
+      "topics": [
+        "work",
+        "health",
+        "economy"
+      ],
+      "summary": "提高職災及爭議補助、支持職訓與中高齡就業，並改善工會資源與溝通。",
+      "classificationRationale": "勞動權益、職場安全及職業工會服務為明確主體。",
+      "alternativeMainTopics": [
+        "health",
+        "economy"
+      ],
+      "classificationAmbiguity": "medium",
+      "date": null,
+      "dateNote": "正文未標示可核對的首次發表日；網站metadata日期另存，不當成政見提出日。",
+      "metadataPublishedAt": "2026-01-06T00:00:55+08:00",
+      "metadataModifiedAt": "2026-10-08T00:29:02+08:00",
+      "retrievedAt": "2026-10-21T06:02:16.898061+00:00",
+      "sourceSHA256": "b4f68d4c785f9b41db8cf9617b72926121147c78b03fbc9ed78b82558f5c2571",
+      "sourceType": "候選人官方競選政策頁"
+    },
+    {
+      "id": "su-policy-10",
+      "title": "七大教育政見",
+      "url": "https://chiao.tw/policies/%e4%b8%83%e5%a4%a7%e6%95%99%e8%82%b2%e6%94%bf%e8%a6%8b",
+      "sourceFile": "research/su-policies/policy-10.html",
+      "textFile": "research/su-policies/policy-10.txt",
+      "mainTopic": "education",
+      "comparisonTopic": "education",
+      "topics": [
+        "education",
+        "work",
+        "care",
+        "health",
+        "digital"
+      ],
+      "summary": "涵蓋適性與技職教育、輔導及教師支持、校園事件處理，以及營養午餐。",
+      "classificationRationale": "以學校教學、學生與教師系統為改革主體，AI為技職與行政工具。",
+      "alternativeMainTopics": [
+        "work",
+        "care",
+        "health",
+        "digital"
+      ],
+      "classificationAmbiguity": "medium",
+      "date": null,
+      "dateNote": "正文未標示可核對的首次發表日；網站metadata日期另存，不當成政見提出日。",
+      "metadataPublishedAt": "2026-01-05T00:00:23+08:00",
+      "metadataModifiedAt": "2026-10-13T09:55:53+08:00",
+      "retrievedAt": "2026-10-21T06:02:17.456189+00:00",
+      "sourceSHA256": "dd606da7026707b2865c04e2d5ea9982af426bbc893d0540410dced815cf2466",
+      "sourceType": "候選人官方競選政策頁"
+    },
+    {
+      "id": "su-policy-11",
+      "title": "三大原住民族政見",
+      "url": "https://chiao.tw/policies/%e4%b8%89%e5%a4%a7%e5%8e%9f%e4%bd%8f%e6%b0%91%e6%97%8f%e6%94%bf%e8%a6%8b",
+      "sourceFile": "research/su-policies/policy-11.html",
+      "textFile": "research/su-policies/policy-11.txt",
+      "mainTopic": "governance",
+      "comparisonTopic": "governance",
+      "topics": [
+        "governance",
+        "care",
+        "culture",
+        "economy",
+        "health"
+      ],
+      "summary": "提出原住民族預算、居住與照顧、文化語言、青年參與及部落自主制度支持。",
+      "classificationRationale": "族群預算與自主制度是整合框架，但生活照顧與文化份量也大，屬高歧義套案。",
+      "alternativeMainTopics": [
+        "care",
+        "culture",
+        "economy",
+        "health"
+      ],
+      "classificationAmbiguity": "high",
+      "date": null,
+      "dateNote": "正文未標示可核對的首次發表日；網站metadata日期另存，不當成政見提出日。",
+      "metadataPublishedAt": "2026-01-04T00:00:04+08:00",
+      "metadataModifiedAt": "2026-09-29T17:16:54+08:00",
+      "retrievedAt": "2026-10-21T06:02:17.997088+00:00",
+      "sourceSHA256": "78b6e0dfabb98c66042fa1ac72360977af10cf35c0fb6cbd82b1ec25b1b10c4a",
+      "sourceType": "候選人官方競選政策頁"
+    },
+    {
+      "id": "su-policy-12",
+      "title": "四大客家政見",
+      "url": "https://chiao.tw/policies/%e5%9b%9b%e5%a4%a7%e5%ae%a2%e5%ae%b6%e6%94%bf%e8%a6%8b",
+      "sourceFile": "research/su-policies/policy-12.html",
+      "textFile": "research/su-policies/policy-12.txt",
+      "mainTopic": "culture",
+      "comparisonTopic": "culture",
+      "topics": [
+        "culture",
+        "economy",
+        "care",
+        "education",
+        "digital"
+      ],
+      "summary": "透過語言技藝、信仰文史、文化產業與科技工具傳承客家文化，並照顧長輩。",
+      "classificationRationale": "四支柱反覆以客家文化傳承與在生活中的延續為共同目的。",
+      "alternativeMainTopics": [
+        "economy",
+        "care",
+        "education",
+        "digital"
+      ],
+      "classificationAmbiguity": "medium",
+      "date": null,
+      "dateNote": "正文未標示可核對的首次發表日；網站metadata日期另存，不當成政見提出日。",
+      "metadataPublishedAt": "2026-01-03T00:00:07+08:00",
+      "metadataModifiedAt": "2026-10-07T18:11:49+08:00",
+      "retrievedAt": "2026-10-21T06:02:18.549758+00:00",
+      "sourceSHA256": "8ec49b9a84951746e193d3ba20832efafda379fba0d748865166a5c503fe42cd",
+      "sourceType": "候選人官方競選政策頁"
+    },
+    {
+      "id": "su-policy-13",
+      "title": "三大長照政見",
+      "url": "https://chiao.tw/policies/%e4%b8%89%e5%a4%a7%e9%95%b7%e7%85%a7%e6%94%bf%e8%a6%8b",
+      "sourceFile": "research/su-policies/policy-13.html",
+      "textFile": "research/su-policies/policy-13.txt",
+      "mainTopic": "care",
+      "comparisonTopic": "care",
+      "topics": [
+        "care",
+        "work",
+        "health",
+        "digital"
+      ],
+      "summary": "減輕長照行政、支持照顧人員，銜接出院後服務及輔具，導入智慧照顧。",
+      "classificationRationale": "以長照可近性、服務銜接與量能為直接目的，科技及職場措施作配套。",
+      "alternativeMainTopics": [
+        "work",
+        "health",
+        "digital"
+      ],
+      "classificationAmbiguity": "medium",
+      "date": null,
+      "dateNote": "正文未標示可核對的首次發表日；網站metadata日期另存，不當成政見提出日。",
+      "metadataPublishedAt": "2026-01-02T00:00:04+08:00",
+      "metadataModifiedAt": "2026-10-07T17:34:36+08:00",
+      "retrievedAt": "2026-10-21T06:02:19.075557+00:00",
+      "sourceSHA256": "5d8879b561aebcb6ddcccf496b4159d913c0978d1e88ee38fa8c339b04ae63d5",
+      "sourceType": "候選人官方競選政策頁"
+    },
+    {
+      "id": "su-policy-14",
+      "title": "牙齒口腔保健政見",
+      "url": "https://chiao.tw/policies/%e7%89%99%e9%bd%92%e5%8f%a3%e8%85%94%e4%bf%9d%e5%81%a5%e6%94%bf%e8%a6%8b",
+      "sourceFile": "research/su-policies/policy-14.html",
+      "textFile": "research/su-policies/policy-14.txt",
+      "mainTopic": "health",
+      "comparisonTopic": "health",
+      "topics": [
+        "health",
+        "care",
+        "work"
+      ],
+      "summary": "擴大兒童塗氟、長者假牙補助與居家牙醫，並查核非法牙材與無照服務。",
+      "classificationRationale": "直接目的為全齡口腔保健與牙科醫療安全。",
+      "alternativeMainTopics": [
+        "care",
+        "work"
+      ],
+      "classificationAmbiguity": "medium",
+      "date": null,
+      "dateNote": "正文未標示可核對的首次發表日；網站metadata日期另存，不當成政見提出日。",
+      "metadataPublishedAt": "2026-01-01T00:00:51+08:00",
+      "metadataModifiedAt": "2026-10-07T17:27:43+08:00",
+      "retrievedAt": "2026-10-21T06:02:19.619145+00:00",
+      "sourceSHA256": "696554f3216131cfcc65386ac0ebb9e8109f34c7b03300a45647dceaba831c56",
+      "sourceType": "候選人官方競選政策頁"
+    }
+  ],
+  "categories": [
+    {
+      "id": "security",
+      "name": "國安、兩岸與防衛",
+      "definition": "國家安全、境外勢力、兩岸港澳、國防、忠誠義務為主要政策目的；不因軍人身分或一般安全字眼自動標記"
+    },
+    {
+      "id": "justice",
+      "name": "司法、法治與人權",
+      "definition": "法院制度、程序權利、犯罪與刑罰本身的改革；只把刑罰當其他目的工具時不自動標記"
+    },
+    {
+      "id": "care",
+      "name": "兒少權益與照顧服務",
+      "definition": "直接兒少安全、隱私、少年權益與家庭托育、長照、身障及社福服務；純職場假別、育兒留停所得替代與退休年資歸work，不因受益者有子女就歸此類。"
+    },
+    {
+      "id": "education",
+      "name": "教育與人才",
+      "definition": "就學、師資、教學、學習支持及青年人才培力"
+    },
+    {
+      "id": "digital",
+      "name": "數位、AI與個資",
+      "definition": "個資、資安、數位平台或AI作為主要改革對象；僅以AI提供行政工具不必另標"
+    },
+    {
+      "id": "work",
+      "name": "勞動、育兒職場與社保",
+      "definition": "工作條件、就業、公務職場、育兒留停及其所得替代、社會保險與退休年資；托育費、普遍育兒補助和實際照顧服務另歸care。"
+    },
+    {
+      "id": "mobility",
+      "name": "交通、港航與通行",
+      "definition": "道路安全、大眾運輸、通勤、船舶與港航管理"
+    },
+    {
+      "id": "environment",
+      "name": "環境、能源、基設與防災",
+      "definition": "環境、林業、水電氣設施、氣象與災後重建"
+    },
+    {
+      "id": "culture",
+      "name": "文化、運動與休閒",
+      "definition": "文化保存、藝文、體育及休閒參與"
+    },
+    {
+      "id": "economy",
+      "name": "經濟、財稅、產業與住宅",
+      "definition": "經濟、企業、租稅、產業、資產及住宅政策"
+    },
+    {
+      "id": "health",
+      "name": "醫療、食安與健康",
+      "definition": "醫療、公共衛生、食品、毒品危害預防與檢驗及治療、健康服務"
+    },
+    {
+      "id": "governance",
+      "name": "政治制度、治理與交流",
+      "definition": "政治制度、行政組織與跨國城市交流；不因每案都涉及政府就自動標記"
+    }
+  ],
+  "distribution": {
+    "care": 3,
+    "economy": 5,
+    "environment": 1,
+    "work": 1,
+    "education": 1,
+    "governance": 1,
+    "culture": 1,
+    "health": 1
+  }
+}

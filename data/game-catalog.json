@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "snapshotAt": "2026-10-21",
+  "games": [
+    {
+      "id": "shen-quotes-quiz",
+      "subjectIds": ["shen-pao-yang"],
+      "title": "這是沈伯洋說的嗎？",
+      "summary": "左滑不是他，右滑是他。每輪六題，即時揭曉，再看有來源的原話。",
+      "url": "https://puwa-taipei.github.io/game/quiz/",
+      "coverUrl": "https://puwa-taipei.github.io/assets/og-game-quiz.png",
+      "tags": ["左右滑卡", "六題一輪", "附原文來源"]
+    },
+    {
+      "id": "shen-red-notes",
+      "subjectIds": ["shen-pao-yang"],
+      "title": "紅紙鈔掉面具",
+      "summary": "抓一疊道具紙鈔，瞄準，往前撒！40 秒四波，看看你能撒出幾連擊。",
+      "url": "https://puwa-taipei.github.io/game/red-notes/",
+      "coverUrl": "https://puwa-taipei.github.io/assets/og-game-red-notes.png",
+      "tags": ["3D 街機", "40 秒挑戰", "連擊加分"]
+    },
+    {
+      "id": "su-quotes-quiz",
+      "subjectIds": ["su-chiao-hui"],
+      "title": "這是蘇巧慧說的嗎？",
+      "summary": "從有官方逐字稿來源的原話開始。左右滑出答案，再核對上下文與影片位置。",
+      "url": "https://huiao-new-taipei.github.io/game/quiz/",
+      "tags": ["左右滑卡", "官方逐字稿", "附原文來源"]
+    }
+  ]
+}
