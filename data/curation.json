@@ -1,0 +1,24 @@
+{
+  "version": "su-curation-v3",
+  "subjectId": "su-chiao-hui",
+  "sourceVersion": "su-v1",
+  "sourceSha256": "41364a48ca9e3762acead265c773cda59df71ff472bd4c670aa62a8421ca335d",
+  "curatedIds": [],
+  "archiveIds": [
+    "su-official-152739",
+    "su-official-152842",
+    "su-official-153103",
+    "su-official-161042",
+    "su-official-161365",
+    "su-official-161475",
+    "su-official-170829",
+    "su-official-170942",
+    "su-official-171032"
+  ],
+  "quizState": "curation-pending",
+  "note": "舊版9則原話保留進階檔案；不再自動作為精選與猜題。新選文須逐筆核對來源與人物歸屬。",
+  "contextOverrides": {
+    "su-official-170942": "她建議針對高齡長者及大學生設計包租代管專案，讓政府協助建立房源、契約與租金安排。這句回應的是大學附近大房東是否願意加入，提議由政府擔任協調的平台。",
+    "su-official-171032": "教育及文化、內政聯席會議討論原住民族學校法草案時，她支持設校方向，追問族語師資、課程研發及行政分工，要求補足實驗教育學校資源與跨區同族別課程合作。"
+  }
+}
