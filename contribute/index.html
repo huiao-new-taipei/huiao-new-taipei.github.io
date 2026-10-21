@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#173e36">
+  <meta name="referrer" content="no-referrer">
+  <title>一起補上紀錄｜國會紀錄觀測</title>
+  <meta name="description" content="提供可核對的原話來源，或投稿附公開原始碼的網頁遊戲。所有投稿先經人工審核。">
+  <link rel="canonical" href="https://huiao-new-taipei.github.io/contribute/">
+  <meta property="og:type" content="website"><meta property="og:locale" content="zh_TW">
+  <meta property="og:title" content="一起補上紀錄｜國會紀錄觀測">
+  <meta property="og:description" content="有原話來源，或做了一款網頁遊戲？把線索交給人工審核。">
+  <meta property="og:url" content="https://huiao-new-taipei.github.io/contribute/">
+  <meta property="og:image" content="https://huiao-new-taipei.github.io/assets/og-records.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="/contribute/contribute.css?v=17">
+  <script src="/contribute/core.js?v=17" defer></script>
+  <script src="/contribute/form.js?v=17" defer></script>
+</head>
+<body data-subject-id="su-chiao-hui">
+<a class="skip" href="#contribution">直接填寫投稿</a>
+<header class="intake-header"><a class="wordmark" href="/"><span aria-hidden="true">◎</span><span>國會紀錄觀測<small>THE RECORD, IN CONTEXT</small></span></a><nav aria-label="主要導覽"><a href="/#statements">原話檔案 ↗</a><a href="/game/">遊戲庫 ↗</a><a href="/">回首頁 ↗</a></nav></header>
+<main class="intake-shell">
+  <section class="intake-hero"><div><p class="eyebrow">OPEN CALL / ADD A SOURCE, BUILD A GAME</p><h1>下一筆紀錄，<br><em>一起補上。</em></h1><p>看到值得核對的原話，或做了一款有意思的網頁遊戲？<br>留下來源與說明，讓每一筆投稿都能好好檢查。</p></div><aside class="process-card"><span class="process-mark" aria-hidden="true">＋</span><h2>先收件，再審核。</h2><ol><li>你提供來源或公開原始碼</li><li>審稿團隊核對內容與權利</li><li>通過後，再由編輯安排收錄</li></ol><p>投稿不會直接公開。原話通過審核後，也不會自動加入現有題庫。</p></aside></section>
+  <section id="contribution" class="intake-panel" aria-labelledby="form-heading">
+    <h2 id="form-heading" class="sr-only">選擇投稿類型並填寫</h2>
+    <div class="type-tabs" role="tablist" aria-label="投稿類型"><button id="tab-quote" role="tab" type="button" aria-controls="panel-quote" aria-selected="true" tabindex="0"><span>01</span>提供原話線索</button><button id="tab-game" role="tab" type="button" aria-controls="panel-game" aria-selected="false" tabindex="-1"><span>02</span>投稿網頁遊戲</button></div>
+    <div id="connection-status" class="connection-status" role="status">正在確認收件狀態。表單不會自動送出。</div>
+    <noscript><p class="form-notice">這份表單需要啟用 JavaScript。啟用前無法傳送任何資料。</p></noscript>
+    <div id="panel-quote" role="tabpanel" aria-labelledby="tab-quote">
+      <form id="quote-form" data-kind="quote" novalidate>
+        <div class="form-head"><p class="eyebrow">SOURCE FIRST</p><h2>讓原話找得到出處。</h2><p>先填原話和主要來源即可。若知道日期、時間點或背景，歡迎展開進階內容補充，不必猜日期或秒數。</p></div>
+        <div class="error-summary" tabindex="-1" role="alert" hidden></div>
+        <div class="field"><label for="quote-subjectId">這份投稿主要關於誰？</label><select id="quote-subjectId" name="subjectId" aria-describedby="quote-subjectId-hint"><option value="shen-pao-yang">沈伯洋</option><option value="su-chiao-hui">蘇巧慧</option></select><p id="quote-subjectId-hint" class="hint">請核對對象再送出。原話按人物分開收錄；遊戲可在人工發布時另加相關人物標籤。</p></div>
+        <div class="field"><label for="quote-quote">原話內容 <span>必填</span></label><textarea id="quote-quote" name="quote" rows="4" maxlength="600" required aria-describedby="quote-quote-hint"></textarea><p id="quote-quote-hint" class="hint">盡量照原文抄錄，保留標點；請勿把自己的評論寫成引言。<span class="count" data-count="quote">0 / 600</span></p></div>
+        <div class="field"><label for="quote-sourceUrl">主要原始來源網址 <span>必填</span></label><input id="quote-sourceUrl" name="sourceUrl" type="url" inputmode="url" maxlength="2048" placeholder="https://…" required aria-describedby="quote-sourceUrl-hint"><p id="quote-sourceUrl-hint" class="hint">公開 HTTPS 影片、文章或官方紀錄。其他佐證連結可放在前後文或補充欄；私人、限時或需授權來源可能無法核對。</p></div>
+        <details class="optional-details" data-section="quote-info"><summary><span>進階內容／告訴我們更多</span><small>選填 · 日期、時間點與前後文</small></summary><div class="optional-content">
+        <div class="date-grid"><div class="field"><label for="quote-sourceDate">發言／發表日期 <span>選填</span></label><input id="quote-sourceDate" name="sourceDate" type="date" min="1900-01-01" aria-describedby="quote-sourceDate-hint"><p id="quote-sourceDate-hint" class="hint">填內容發生的日期；若只知道轉載日，請在背景中註明。</p></div><label class="check date-unknown"><input name="dateUnknown" type="checkbox">日期尚不確定</label></div>
+        <div class="field"><label for="quote-locator">影片時間點／原文位置 <span>選填</span></label><input id="quote-locator" name="locator" type="text" maxlength="240" placeholder="例如 12:34–13:05、文章第 4 段，或「尚待定位」" aria-describedby="quote-locator-hint"><p id="quote-locator-hint" class="hint">請說明如何找到這段話。無法確認秒數時，寫出段落或待查資訊即可。</p></div>
+        <div class="field"><label for="quote-context">前後文與背景 <span>選填</span></label><textarea id="quote-context" name="context" rows="5" maxlength="2000" aria-describedby="quote-context-hint"></textarea><p id="quote-context-hint" class="hint">他在什麼場合、回答什麼問題？前後還說了什麼？請註明是本人發言、書面文字或媒體引述。<span class="count" data-count="context">0 / 2000</span></p></div>
+        <div class="field"><label for="quote-note">為什麼值得收錄？／其他補充 <span>選填</span></label><textarea id="quote-note" name="note" rows="3" maxlength="1000" aria-describedby="quote-note-hint"></textarea><p id="quote-note-hint" class="hint">可以指出需要核對或補充的地方。評論與推論請和原句分開。<span class="count" data-count="note">0 / 1000</span></p></div>
+        </div></details>
+        <details class="optional-details" data-section="quote-identity"><summary><span>署名與聯絡方式</span><small>選填 · 聯絡方式不公開</small></summary><div class="optional-content">
+        <fieldset class="identity-fields"><legend>署名與聯絡方式</legend><p class="hint">都可不填。公開署名和私人聯絡方式，分開處理。</p><div class="field"><label for="quote-creditName">希望公開顯示的署名 <span>選填</span></label><input id="quote-creditName" name="creditName" type="text" maxlength="60" autocomplete="off" aria-describedby="quote-creditName-hint"><p id="quote-creditName-hint" class="hint">可用暱稱，請勿放 Email 或網址；不填就不署名。</p></div><label class="check"><input name="creditConsent" type="checkbox">若內容獲選，我同意公開顯示這個署名。</label><div class="contact-grid"><div class="field"><label for="quote-contactKind">私人聯絡方式 <span>選填</span></label><select id="quote-contactKind" name="contactKind"><option value="email">Email</option><option value="url">公開聯絡網址</option></select></div><div class="field"><label for="quote-contactValue">Email／HTTPS 聯絡網址</label><input id="quote-contactValue" name="contactValue" type="text" maxlength="2048" autocomplete="off" aria-describedby="quote-contactValue-hint"><p id="quote-contactValue-hint" class="hint">只提供給審稿團隊，不公開，也不寫入本機草稿。</p></div></div><label class="check"><input name="contactConsent" type="checkbox">若有填聯絡方式，我同意審稿團隊私下保存，僅供本次投稿聯繫。</label></fieldset>
+        </div></details>
+        <div class="consent-block"><label class="check"><input name="reviewConsent" type="checkbox" required>我已確認來源與說明，了解投稿會先經人工審核；內容可能不收錄，未經確認的判斷不會因投稿而成為事實。</label><p>請勿提交私人資料、帳密或未獲授權的個人資訊。原話內容、來源與公開署名在獲選後可能公開；私人聯絡方式不公開。</p></div>
+        <div class="honey" aria-hidden="true"><label for="quote-website">此欄請留空</label><input id="quote-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+        <div class="form-actions"><button class="submit-button" type="submit" disabled>送出原話線索 <span aria-hidden="true">↗</span></button><button type="button" data-action="save">存成這台瀏覽器的草稿</button><button type="button" data-action="clear">清除本機草稿</button></div><p class="draft-status hint" role="status">草稿不會自動保存。使用公用電腦時，請勿保存。</p><div class="submission-status" role="status" tabindex="-1" hidden></div>
+      </form>
+    </div>
+    <div id="panel-game" role="tabpanel" aria-labelledby="tab-game" hidden>
+      <form id="game-form" data-kind="game" novalidate>
+        <div class="form-head"><p class="eyebrow">BUILD SOMETHING PLAYABLE</p><h2>把你的網頁遊戲，<br>放進下一個空位。</h2><p>填上名稱、簡介與公開原始碼，就能送出投稿。其他資訊可選填；這裡不會載入遠端遊戲或圖片。</p></div>
+        <div class="error-summary" tabindex="-1" role="alert" hidden></div>
+        <div class="field"><label for="game-subjectId">這份投稿主要關於誰？</label><select id="game-subjectId" name="subjectId" aria-describedby="game-subjectId-hint"><option value="shen-pao-yang">沈伯洋</option><option value="su-chiao-hui">蘇巧慧</option></select><p id="game-subjectId-hint" class="hint">請核對對象再送出。原話按人物分開收錄；遊戲可在人工發布時另加相關人物標籤。</p></div>
+        <div class="field"><label for="game-title">遊戲名稱 <span>必填</span></label><input id="game-title" name="title" type="text" maxlength="100" required></div>
+        <div class="field"><label for="game-summary">遊戲簡介與玩法 <span>必填</span></label><textarea id="game-summary" name="summary" rows="4" maxlength="1200" required aria-describedby="game-summary-hint"></textarea><p id="game-summary-hint" class="hint">玩家要做什麼、如何操作？若引用現實言論，請附上可核對來源。<span class="count" data-count="summary">0 / 1200</span></p></div>
+        <div class="field"><label for="game-repoUrl">公開 GitHub 原始碼儲存庫 <span>必填</span></label><input id="game-repoUrl" name="repoUrl" type="url" inputmode="url" maxlength="2048" required placeholder="https://github.com/owner/repository" aria-describedby="game-repoUrl-hint"><p id="game-repoUrl-hint" class="hint">必須能在未登入時閱讀原始碼。請填專案首頁；私有儲存庫、壓縮檔或只有試玩頁不符合條件。審稿時會另行確認公開性。</p></div>
+        <details class="optional-details" data-section="game-info"><summary><span>進階遊戲資訊／告訴我們更多</span><small>選填 · 試玩、封面、版本與授權</small></summary><div class="optional-content"><p class="optional-intro">現在不確定可以先留空。審稿時可能請你補上版本、素材與授權說明；投稿不代表已通過檢查。</p>
+        <div class="field"><label for="game-commitSha">供審核的完整 commit SHA <span>選填</span></label><input id="game-commitSha" name="commitSha" type="text" maxlength="40" minlength="40" spellcheck="false" autocapitalize="off" placeholder="40 個十六進位字元" aria-describedby="game-commitSha-hint"><p id="game-commitSha-hint" class="hint">在 GitHub 的提交紀錄複製完整版本編號，不是 main、分支名或短編號。若有提供，會以這個固定版本核對。</p></div>
+        <div class="field"><label for="game-gameUrl">第三方試玩網址 <span>選填</span></label><input id="game-gameUrl" name="gameUrl" type="url" inputmode="url" maxlength="2048" placeholder="https://…" aria-describedby="game-gameUrl-hint"><p id="game-gameUrl-hint" class="hint">沒有已部署版本也可以投稿；請在原始碼說明如何執行。若通過收錄，會以明確的第三方連結顯示，不內嵌執行。</p></div>
+        <div class="field"><label for="game-screenshotUrl">PNG／JPG 封面來源網址 <span>選填</span></label><input id="game-screenshotUrl" name="screenshotUrl" type="url" inputmode="url" maxlength="2048" placeholder="https://…/cover.png" aria-describedby="game-screenshotUrl-hint"><p id="game-screenshotUrl-hint" class="hint">公開 HTTPS 圖片，網址路徑須以 .png、.jpg 或 .jpeg 結尾。此頁不會自動載入；公開封面須經審稿人核准並放到本站。</p></div>
+        <div class="field"><label for="game-license">程式授權名稱／條款位置 <span>選填</span></label><input id="game-license" name="license" type="text" maxlength="120" placeholder="例如 MIT；LICENSE 檔案在專案根目錄" aria-describedby="game-license-hint"><p id="game-license-hint" class="hint">原始碼公開不代表可自由使用。請明列授權；授權不明時可能無法收錄。</p></div>
+        <div class="field"><label for="game-assetRights">圖片、音樂、字型等素材的權利說明 <span>選填</span></label><textarea id="game-assetRights" name="assetRights" rows="4" maxlength="1200" aria-describedby="game-assetRights-hint"></textarea><p id="game-assetRights-hint" class="hint">列出自製或第三方素材、作者與授權來源；沒有外部素材也請寫明。<span class="count" data-count="assetRights">0 / 1200</span></p></div>
+        <label class="check rights-confirm"><input name="rightsConfirmed" type="checkbox">我確認有權提供程式與素材供審核，並已如實列出授權及限制。</label>
+        <div class="field"><label for="game-externalServices">外部服務與資料處理 <span>選填</span></label><textarea id="game-externalServices" name="externalServices" rows="3" maxlength="1000" aria-describedby="game-externalServices-hint"></textarea><p id="game-externalServices-hint" class="hint">是否連接外部 API、需登入、收集資料、分析追蹤或產生費用？請逐項說明；沒有就填「無」。<span class="count" data-count="externalServices">0 / 1000</span></p></div>
+        <div class="field"><label for="game-note">其他補充 <span>選填</span></label><textarea id="game-note" name="note" rows="3" maxlength="1000" aria-describedby="game-note-hint"></textarea><p id="game-note-hint" class="hint">例如支援裝置、已知限制或需要協助的地方。<span class="count" data-count="note">0 / 1000</span></p></div>
+        </div></details>
+        <details class="optional-details" data-section="game-identity"><summary><span>署名與聯絡方式</span><small>選填 · 聯絡方式不公開</small></summary><div class="optional-content">
+        <fieldset class="identity-fields"><legend>署名與聯絡方式</legend><p class="hint">都可不填。公開署名和私人聯絡方式，分開處理。</p><div class="field"><label for="game-creditName">希望公開顯示的署名 <span>選填</span></label><input id="game-creditName" name="creditName" type="text" maxlength="60" autocomplete="off" aria-describedby="game-creditName-hint"><p id="game-creditName-hint" class="hint">可用暱稱，請勿放 Email 或網址；不填就不署名。</p></div><label class="check"><input name="creditConsent" type="checkbox">若內容獲選，我同意公開顯示這個署名。</label><div class="contact-grid"><div class="field"><label for="game-contactKind">私人聯絡方式 <span>選填</span></label><select id="game-contactKind" name="contactKind"><option value="email">Email</option><option value="url">公開聯絡網址</option></select></div><div class="field"><label for="game-contactValue">Email／HTTPS 聯絡網址</label><input id="game-contactValue" name="contactValue" type="text" maxlength="2048" autocomplete="off" aria-describedby="game-contactValue-hint"><p id="game-contactValue-hint" class="hint">只提供給審稿團隊，不公開，也不寫入本機草稿。</p></div></div><label class="check"><input name="contactConsent" type="checkbox">若有填聯絡方式，我同意審稿團隊私下保存，僅供本次投稿聯繫。</label></fieldset>
+        </div></details>
+        <div class="consent-block"><label class="check"><input name="reviewConsent" type="checkbox" required>我了解遊戲會先經人工檢查，投稿不代表本站認可或保證收錄；程式、公開來源及署名在獲選後可能列於遊戲庫。</label><p>請勿提交金鑰、帳密或他人的私人資料。私人聯絡方式不公開。審核通過也不會在本站直接執行你的程式。</p></div>
+        <div class="honey" aria-hidden="true"><label for="game-website">此欄請留空</label><input id="game-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+        <div class="form-actions"><button class="submit-button" type="submit" disabled>送出遊戲投稿 <span aria-hidden="true">↗</span></button><button type="button" data-action="save">存成這台瀏覽器的草稿</button><button type="button" data-action="clear">清除本機草稿</button></div><p class="draft-status hint" role="status">草稿不會自動保存。使用公用電腦時，請勿保存。</p><div class="submission-status" role="status" tabindex="-1" hidden></div>
+      </form>
+    </div>
+  </section>
+  <section class="privacy-note" aria-labelledby="privacy-heading"><p class="eyebrow">YOUR DRAFT, YOUR CHOICE</p><h2 id="privacy-heading">按下送出之前，<br>內容都留在這一頁。</h2><div><p>「存成草稿」會把內容保存在目前這台裝置的瀏覽器，其他使用同一瀏覽器的人可能看得到。聯絡方式與同意勾選不會存入草稿；清除草稿不會撤回已送出的投稿。本站不提供公開查稿，請保存收件編號。送出時，連線服務仍可能保留一般運作紀錄。</p><details class="privacy-terms"><summary>投稿與私人聯絡資料，會保留多久？</summary><p>未發布的投稿會在最後更新滿 90 天後開始分批清理，完成清理前仍可能保留。私人聯絡資料在收件 90 天後不再顯示。到期資料會在後續服務操作中分批清理，不保證在到期當下刪除。已發布遊戲的公開快照可繼續列在遊戲庫；公開快照不包含私人聯絡方式。</p><p>本機草稿由你自行清除，不受上述服務保留期限控制。請勿在投稿內容中夾帶私人聯絡資料，應填在專用聯絡欄位。</p></details></div></section>
+</main><footer class="intake-footer"><span>國會紀錄觀測 ／ 一起把來源補完整。</span><a href="/">回到觀測網站 ↗</a></footer>
+</body></html>

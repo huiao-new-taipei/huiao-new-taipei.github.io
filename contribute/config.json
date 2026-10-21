@@ -1,0 +1,6 @@
+{
+  "apiUrl": "https://wggebwlqsfxuwaocfpsf.supabase.co/functions/v1/intake-api",
+  "supabaseUrl": "https://wggebwlqsfxuwaocfpsf.supabase.co",
+  "publishableKey": "sb_publishable_iSPQEZ68saMnhWqwc7IxSQ_zbMJvFxV",
+  "authMode": "magiclink"
+}
