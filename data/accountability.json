@@ -1,0 +1,675 @@
+{
+  "version": "su-accountability-v3",
+  "subjectId": "su-chiao-hui",
+  "asOf": "2026-10-22",
+  "intro": {
+    "imageLabel": "她如何介紹自己",
+    "imageSummary": "下班時，就會化身成講故事給小水獺們聽的水獺媽媽。",
+    "imageSource": {
+      "label": "候選人官網「水獺媽媽」自述",
+      "url": "https://chiao.tw/ottermama"
+    },
+    "recordLabel": "公開紀錄中的另一面",
+    "recordSummary": "從對方子女的同儕處境，到親屬採購的尖銳反擊，再到被害人的點名。把形象與具體言行並列讀。",
+    "historyNote": "水獺媽媽至少自 2020 年已有本人影片；本頁比較形象與言行，不宣稱此角色是 2026 年才出現。",
+    "historySource": {
+      "label": "本人頻道 2020 年影片",
+      "url": "https://www.youtube.com/watch?v=ThuO7jT_XJw"
+    }
+  },
+  "method": {
+    "selection": "依可核對的爭議與強烈用語選材，不是隨機樣本，不能推算全部言論的正負比例。",
+    "audio": "本版未新增核聽完成的短片，相對秒數保留未確認。",
+    "roles": "原話、具名批評、機關說明與本站編輯評析分欄。"
+  },
+  "cases": [
+    {
+      "id": "zhang-shujuan-2022-2026",
+      "featured": true,
+      "category": "名譽傷害爭議",
+      "date": "2022-09-22／2026-10-02",
+      "kicker": "01 ／ 當事人的傷害，與她的解釋",
+      "claimType": "被害人指控、本人回應與法院紀錄",
+      "title": "張淑娟受了傷，誰來面對？",
+      "question": "被張淑娟點名後，她回答「在講我自己」。這是否完整交代了當年節目上的言行？",
+      "quote": {
+        "text": "這完全是在講我自己",
+        "speaker": "蘇巧慧",
+        "sourceType": "2026 年受訪回應，媒體直接引述",
+        "url": "https://news.tvbs.com.tw/politics/4030633",
+        "date": "2026-10-02",
+        "audioVerified": false,
+        "locator": null
+      },
+      "criticism": {
+        "by": "張淑娟；管中閔",
+        "text": "張淑娟在記者會控訴名譽受害，點名蘇巧慧是媒體幫兇。管中閔隨後聲援，並重提 2018 年共同記者會對自己的傷害。",
+        "url": "https://www.chinatimes.com/realtimenews/20261002002946-260407"
+      },
+      "record": {
+        "summary": "張淑娟遭周玉蔻、蔡玉真不實指摘，已有刑事判決；蘇巧慧在節目中的責任，應另對照原節目及她的回應。",
+        "items": [
+          {
+            "label": "2024 年一審",
+            "text": "北院官方新聞稿載周、蔡未合理查證、不實指摘並損害名譽與個資。此為周、蔡兩人的一審，不是蘇巧慧的有罪判決。",
+            "url": "https://www.judicial.gov.tw/tw/cp-1888-1206232-5bd2b-1.html"
+          },
+          {
+            "label": "2026 年媒體引述當年錄音",
+            "text": "報導將「直球對決，面對它、處理它」歸於蘇巧慧。批評者認為這把壓力轉給被指控者；她稱談的是自己。指涉及前後承接仍須回完整節目核對，本版不冒稱已核聽。",
+            "url": "https://news.tvbs.com.tw/politics/4030454"
+          },
+          {
+            "label": "2022 年原節目",
+            "text": "原出版頁保留該集完整節目入口；她在該集的發言由媒體引述當年錄音定位。流傳錄音與「直球對決」爭議應回到原段核對；本版尚未完成原聲逐句定位。",
+            "url": "https://www.fountmedia.io/article/162756"
+          },
+          {
+            "label": "2026 年二審",
+            "text": "中央社報導高院認周玉蔻為主導者，改判 9 個月、不得易科罰金，仍可上訴。判決對象是周、蔡，不能移植為蘇巧慧已被判有罪。",
+            "url": "https://www.cna.com.tw/news/asoc/202609290126.aspx"
+          }
+        ]
+      },
+      "response": {
+        "text": "蘇巧慧說，她在談政治人物都會面臨選舉檢驗，包括她自己；否認評論當事人私事，請外界回看完整錄影。這是她的解釋，不能代替逐句檢驗。",
+        "url": "https://www.nownews.com/news/6880037"
+      },
+      "assessment": "張淑娟受到不實指摘的傷害，不能模糊成單純政治口水。要追問蘇當年具體說了什麼、是否助長未經查證的說法，以及如今如何面對當事人的指控。只把她的否認抄成結論，同樣不夠。",
+      "unknowns": [
+        "原節目中蘇巧慧發言的完整逐句核音與相對時間點尚未完成。",
+        "未取得認定蘇巧慧在本案構成犯罪的裁判；不將「幫兇」當成她的司法身分。"
+      ],
+      "sources": [
+        {
+          "label": "北院 2024 年一審新聞稿",
+          "url": "https://www.judicial.gov.tw/tw/cp-1888-1206232-5bd2b-1.html",
+          "type": "官方司法文件"
+        },
+        {
+          "label": "你提供的中時：批評與本人回應",
+          "url": "https://www.chinatimes.com/realtimenews/20261002002946-260407",
+          "type": "具名批評與回應報導"
+        },
+        {
+          "label": "原節目出版頁",
+          "url": "https://www.fountmedia.io/article/162756",
+          "type": "節目出版者"
+        },
+        {
+          "label": "完整節目入口（未核聽秒數）",
+          "url": "https://www.youtube.com/watch?v=RyJQ7ShQQ0M",
+          "type": "原節目定位"
+        },
+        {
+          "label": "中央社：周、蔡二審結果",
+          "url": "https://www.cna.com.tw/news/asoc/202609290126.aspx",
+          "type": "司法報導"
+        },
+        {
+          "label": "蘇 10 月 2 日回應",
+          "url": "https://www.nownews.com/news/6880037",
+          "type": "本人受訪報導"
+        },
+        {
+          "label": "當年錄音的報導與批評",
+          "url": "https://news.tvbs.com.tw/politics/4030454",
+          "type": "媒體引述錄音，未獨立核音"
+        }
+      ]
+    },
+    {
+      "id": "children-colleagues-20240528",
+      "featured": true,
+      "category": "言語分寸",
+      "date": "2024-05-28",
+      "kicker": "02 ／ 議事攻防，為何談到孩子？",
+      "claimType": "本人官方逐字稿",
+      "title": "批評法案，為何要孩子面對同學？",
+      "question": "親子形象之外，看看她如何把對立委的批評，延伸到對方子女。",
+      "quote": {
+        "text": "你的孩子也是念法律系的吧！你好意思讓他去面對同學嗎？",
+        "speaker": "蘇巧慧",
+        "sourceType": "立法院官方逐字稿",
+        "url": "https://ivod.ly.gov.tw/Demand/Speech/153103",
+        "date": "2024-05-28",
+        "audioVerified": false,
+        "locator": null
+      },
+      "criticism": {
+        "by": "本站編輯提問",
+        "text": "爭論立法程序與品質，為何要用孩子能否面對同學，來要求家長感到羞愧？這是在檢視措辭，不是替任何一方判定法案內容。",
+        "url": "https://ivod.ly.gov.tw/Demand/Speech/153103"
+      },
+      "record": {
+        "summary": "她先批評國會改革法案的審查、三讀程序與立法品質，再向國民黨、民眾黨委員說出這句話。",
+        "items": [
+          {
+            "label": "前後文",
+            "text": "她談到自己念法律、準備律師考試的經驗，質疑藍白委員如何面對法律系學生，接著談到對方孩子與同學。原段未點名哪位委員的孩子，不擅自補名字。",
+            "url": "https://ivod.ly.gov.tw/Demand/Speech/153103"
+          },
+          {
+            "label": "時間口徑",
+            "text": "紀錄所載 18 時 14 分是會議鐘點，不是影片已核聽的秒數。",
+            "url": "https://ivod.ly.gov.tw/Demand/Speech/153103"
+          }
+        ]
+      },
+      "response": {
+        "text": "本次未取得她針對這一句話另作的完整回應。完整議事爭點保留在來源中。",
+        "url": "https://ivod.ly.gov.tw/Demand/Speech/153103"
+      },
+      "assessment": "這不是只有一般政策主張的原話。即使對法案有強烈立場，將子女的同儕處境帶進政治攻防，仍是可以具體追問的言語選擇。親切形象不能讓這段紀錄消失。",
+      "unknowns": [
+        "未完成這一句的原聲起迄定位，不標示精確片段已核音。",
+        "原段沒有具名指向特定子女。"
+      ],
+      "sources": [
+        {
+          "label": "立法院 iVOD 153103：全文與影片",
+          "url": "https://ivod.ly.gov.tw/Demand/Speech/153103",
+          "type": "官方逐字稿與影片"
+        }
+      ]
+    },
+    {
+      "id": "wang-family-procurement-20250102",
+      "featured": true,
+      "category": "親屬爭議中的反擊",
+      "date": "2025-01-02",
+      "kicker": "03 ／ 家人被質疑時，她如何回應？",
+      "claimType": "媒體直接引述本人反擊",
+      "title": "回應採購質疑，用上「可恥又可悲」。",
+      "question": "面對丈夫參與評選的爭議，她如何說明程序，又如何攻擊質疑者？",
+      "quote": {
+        "text": "可恥又可悲",
+        "speaker": "蘇巧慧",
+        "sourceType": "同時期媒體直接引述；有新聞影片入口",
+        "url": "https://www.ftvnews.com.tw/news/detail/2025102P05M1",
+        "date": "2025-01-02",
+        "audioVerified": false,
+        "locator": null
+      },
+      "criticism": {
+        "by": "王鴻薇等質疑者",
+        "text": "質疑原民台採購評選與她家屬的關係，要求說明利益迴避及評選流程。是否違法仍須依原始評選資料認定。",
+        "url": "https://www.ftvnews.com.tw/news/detail/2025102P05M1"
+      },
+      "record": {
+        "summary": "她反駁時對王鴻薇使用強烈用語，同時主張丈夫僅作電影專業評選、不涉採購行政。原視另報導機關說明廢標及履約風險，程序疑點仍應具體檢查。",
+        "items": [
+          {
+            "label": "程序說明",
+            "text": "報導提及第一輪未通過的是她丈夫評為第一的廠商，不能改寫成她丈夫本人被淘汰。",
+            "url": "https://www.ftvnews.com.tw/news/detail/2025102P05M1"
+          },
+          {
+            "label": "採購機關的說明",
+            "text": "原視報導承辦方對廢標與履約的說明。要檢驗的應包括評選、廢標和履約依據，而不是只剩雙方互罵。",
+            "url": "https://news.ipcf.org.tw/152012"
+          }
+        ]
+      },
+      "response": {
+        "text": "她否認家人影響採購行政，批評對手利用她的名字吸引注意。否認仍應和評選文件逐項對照。",
+        "url": "https://www.nownews.com/news/6627309"
+      },
+      "assessment": "可以直接看見尖銳反擊，也應繼續追問親屬角色與程序。「可恥又可悲」不能替代利益迴避及採購文件；這句重話本身也不是採購違法的證據。",
+      "unknowns": [
+        "未取得足以在本頁判定採購違法的完整文件。",
+        "新聞影片未完成逐句音訊核對與時間點。"
+      ],
+      "sources": [
+        {
+          "label": "民視：本人反擊與程序說明",
+          "url": "https://www.ftvnews.com.tw/news/detail/2025102P05M1",
+          "type": "同時期直接引述"
+        },
+        {
+          "label": "民視新聞影片",
+          "url": "https://www.youtube.com/watch?v=INtBWXWwNRs",
+          "type": "新聞影片入口"
+        },
+        {
+          "label": "原視：採購機關說明",
+          "url": "https://news.ipcf.org.tw/152012",
+          "type": "機關所屬媒體報導"
+        },
+        {
+          "label": "前一日書面回應",
+          "url": "https://www.nownews.com/news/6627309",
+          "type": "本人回應報導"
+        }
+      ]
+    },
+    {
+      "id": "guan-min-2018-2026",
+      "featured": false,
+      "category": "名譽傷害爭議",
+      "date": "2018-01-25／2026-10-02",
+      "kicker": "延伸 ／ 共同記者會的責任",
+      "claimType": "共同出席、具名批評與校方紀錄",
+      "title": "管中閔重提往事：共同記者會之後呢？",
+      "question": "她當年共同出席質疑記者會；台大決定不立案後，如何面對後續問責？",
+      "quote": null,
+      "criticism": {
+        "by": "管中閔",
+        "text": "2026 年聲援張淑娟時，管中閔指蘇巧慧曾參與 2018 年對自己的政治傷害，要求她說明。",
+        "url": "https://www.chinatimes.com/realtimenews/20261002002946-260407"
+      },
+      "record": {
+        "summary": "2018 年蘇巧慧、張廖萬堅、何欣純共同開記者會。當時報導把具體抄襲比對歸於張廖，蘇主要談遴選程序。台大之後決定不立案調查。",
+        "items": [
+          {
+            "label": "當年記者會",
+            "text": "應逐位辨認說話者，不把張廖的所有指控移植成蘇的原話；共同出席的政治責任仍可檢視。",
+            "url": "https://www.cna.com.tw/news/aipl/201801250213.aspx"
+          },
+          {
+            "label": "台大正式紀錄",
+            "text": "2018 年 2 月 9 日會議紀錄載不立案及理由；這不是認定蘇故意誹謗的刑事判決。",
+            "url": "https://ori.ntu.edu.tw/news/download/fileSn/2"
+          }
+        ]
+      },
+      "response": {
+        "text": "2026 年競辦回應三案質疑，稱外界扭曲事實。論文爭議仍應將她本人說法、共同出席與校方後續處理對照。",
+        "url": "https://www.cna.com.tw/news/aipl/202610050103.aspx"
+      },
+      "assessment": "不能用「不是她親口說每一句」就結束共同記者會的問責；也不能把共同出席寫成已被判造謠。可以追問的是：正式結果出來後，原先疑慮有沒有清楚交代。",
+      "unknowns": [
+        "未取得她對台大 2018 年 2 月 9 日決議逐項回應的完整原文。"
+      ],
+      "sources": [
+        {
+          "label": "2018 年中央社現場報導",
+          "url": "https://www.cna.com.tw/news/aipl/201801250213.aspx",
+          "type": "記者會報導"
+        },
+        {
+          "label": "台大正式會議紀錄",
+          "url": "https://ori.ntu.edu.tw/news/download/fileSn/2",
+          "type": "校方原始文件"
+        },
+        {
+          "label": "管中閔批評與蘇回應",
+          "url": "https://www.chinatimes.com/realtimenews/20261002002946-260407",
+          "type": "具名批評報導"
+        },
+        {
+          "label": "競辦回應",
+          "url": "https://www.cna.com.tw/news/aipl/202610050103.aspx",
+          "type": "競辦回應"
+        }
+      ]
+    },
+    {
+      "id": "kindergarten-2023-2026",
+      "featured": false,
+      "category": "定調與後續結果",
+      "date": "2023-06／2025-09／2026-10",
+      "kicker": "延伸 ／ 當初的定調，有沒有更新？",
+      "claimType": "舊貼文截圖報導與檢驗、偵查紀錄",
+      "title": "從疑似餵藥到二度不起訴，她如何交代？",
+      "question": "調查未完成時的強烈定調，在檢驗與偵查結果出來後，應如何更正或說明？",
+      "quote": null,
+      "criticism": {
+        "by": "李四川競辦",
+        "text": "2026 年公布一張標示 2023 年 6 月 8 日的蘇巧慧舊貼文截圖，質疑她過早用毒品定調。本站尚未直接取回本人完整原貼。",
+        "url": "https://udn.com/news/story/124652/9823942"
+      },
+      "record": {
+        "summary": "2023 年新北地檢署宣布不起訴，36 份毛髮檢體未檢出所查巴比妥及苯二氮平類。2025 年報導續查後仍因證據不足二度不起訴。行政糾正是另一項判斷。",
+        "items": [
+          {
+            "label": "刑事偵查",
+            "text": "不能把初步檢測值直接等同曾服用毒品。第二次不起訴的報導當時仍可再議；本頁不推定其後司法狀態。",
+            "url": "https://www.cna.com.tw/news/asoc/202509030104.aspx"
+          },
+          {
+            "label": "行政責任",
+            "text": "監察院 2024 年另糾正新北市府。行政處置有缺失，不等於已證實餵毒；刑事證據不足也不抹去行政問題。",
+            "url": "https://www.cy.gov.tw/CyBsBoxContent.aspx?n=134&s=48859"
+          }
+        ]
+      },
+      "response": {
+        "text": "她與競辦說，當時市府曾公布檢測反應，民代有責任要求處理。這說明她主張的監督背景，仍需交代原貼用語及後續是否更新說法。",
+        "url": "https://www.cna.com.tw/news/aipl/202610050103.aspx"
+      },
+      "assessment": "應檢驗證據未齊時如何定調、之後如何面對受影響的親師生。監督職責不能直接免除文字責任；未取回原貼前，也不能將轉載截圖當成已獨立核對的原文。",
+      "unknowns": [
+        "本人完整舊貼文、編輯紀錄與後續更正尚待取得。",
+        "未取得 2025 年第二次不起訴原處分及其後再議結果。"
+      ],
+      "sources": [
+        {
+          "label": "新北地檢署 2023-07-12 原始新聞稿",
+          "url": "https://www.pcc.moj.gov.tw/media/325865/112-07-12-%E6%96%B0%E5%8C%97%E5%9C%B0%E6%AA%A2%E7%BD%B2%E5%81%B5%E8%BE%A6%E6%B6%89%E5%AB%8C%E9%A4%B5%E9%A3%9F%E5%B9%BC%E7%AB%A5%E4%B8%8D%E6%98%8E%E8%97%A5%E7%89%A9%E6%A1%88-%E5%81%B5%E6%9F%A5%E7%B5%82%E7%B5%90%E7%82%BA%E4%B8%8D%E8%B5%B7%E8%A8%B4%E8%99%95%E5%88%86-%E6%96%B0%E8%81%9E%E7%A8%BF-%E6%A0%B8%E5%AE%9A-docx.pdf?mediaDL=true",
+          "type": "檢方原始文件"
+        },
+        {
+          "label": "舊貼文截圖與競辦批評",
+          "url": "https://udn.com/news/story/124652/9823942",
+          "type": "媒體報導對手公布截圖"
+        },
+        {
+          "label": "2025 年二度不起訴報導",
+          "url": "https://www.cna.com.tw/news/asoc/202509030104.aspx",
+          "type": "司法報導"
+        },
+        {
+          "label": "監察院糾正案",
+          "url": "https://www.cy.gov.tw/CyBsBoxContent.aspx?n=134&s=48859",
+          "type": "官方行政紀錄"
+        },
+        {
+          "label": "蘇競辦回應",
+          "url": "https://www.cna.com.tw/news/aipl/202610050103.aspx",
+          "type": "競辦回應"
+        }
+      ]
+    },
+    {
+      "id": "ntsec-c10725-2018-2020",
+      "featured": false,
+      "date": "2018–2020",
+      "kicker": "親屬與公共資源 ／ 科教館特展",
+      "category": "親屬與公共資源",
+      "claimType": "招標原件、政治質疑與機關說明",
+      "title": "妹妹公司承接千萬特展，評選與履約如何檢驗？",
+      "question": "政治背景的疑慮，應由評選、決標、展期與驗收文件回答。",
+      "quote": null,
+      "criticism": {
+        "by": "羅智強",
+        "text": "質疑蘇巧純的二三設計取得科教館特展案，是否受到父親政治影響。",
+        "url": "https://www.cna.com.tw/news/aipl/202007140197.aspx"
+      },
+      "record": {
+        "summary": "科教館案號 C-10725，招標預算 1,050 萬元；二三設計得標金額約 1,049.6 萬元仍依採購鏡像，決標及履約原件待核。",
+        "items": [
+          {
+            "label": "政府招標公告",
+            "text": "公告為公開評選的限制性招標。招標公告能核對預算及程序，不能單獨證明實際決標金額或政治介入。",
+            "url": "https://web.pcc.gov.tw/tps/QueryTender/query/historyTenderDetail?fkPmsMainHist=NjU5NTk5MjE="
+          },
+          {
+            "label": "決標金額的資料層級",
+            "text": "採購鏡像列二三設計及 10,496,430 元。鏡像日期欄位互有差異，不拿它直接判定決標與上任的先後。",
+            "url": "https://www.ezbid.tw/detail/3.9.4/C-10725"
+          },
+          {
+            "label": "展覽後續",
+            "text": "官方紀錄列展期為 2020 年 11 月 3 日至 2021 年 5 月 30 日。不能將 2020 年 7 月尚未開展，沿用為至今沒有辦展；有開展也不等於完成財務及驗收查核。",
+            "url": "https://www.ntsec.gov.tw/USER/Query.aspx?p=12&print=1&q=%E5%B1%95%E8%A6%BD"
+          }
+        ]
+      },
+      "response": {
+        "text": "行政院與館方否認政治影響，主張評選早於蘇貞昌上任，展期調整另有場館因素。這些說明仍須與評選、契約變更和驗收文件核對。",
+        "url": "https://www.cna.com.tw/news/aipl/202007140197.aspx"
+      },
+      "assessment": "值得追問評選是否公平、延展是否合約允許、交付是否驗收；不能僅以親屬關係定罪，也不能只以否認就結束查核。此案未取得蘇巧慧介入評選的直接資料。",
+      "unknowns": [
+        "原始決標公告、完整評選及履約驗收文件尚未取得。",
+        "未取得認定家屬關說、違法得標或個人獲利的正式裁判。"
+      ],
+      "sources": [
+        {
+          "label": "政府電子採購網：C-10725 招標",
+          "url": "https://web.pcc.gov.tw/tps/QueryTender/query/historyTenderDetail?fkPmsMainHist=NjU5NTk5MjE=",
+          "type": "招標原始公告"
+        },
+        {
+          "label": "採購鏡像：廠商與決標金額",
+          "url": "https://www.ezbid.tw/detail/3.9.4/C-10725",
+          "type": "第三方採購彙整"
+        },
+        {
+          "label": "中央社：質疑及政院回應",
+          "url": "https://www.cna.com.tw/news/aipl/202007140197.aspx",
+          "type": "當年指控與回應報導"
+        },
+        {
+          "label": "科教館舊站：特展說明",
+          "url": "https://wwwold.ntsec.gov.tw/user/News.aspx?a=3&p=6&print=1",
+          "type": "機關說明索引"
+        }
+      ]
+    },
+    {
+      "id": "campaign-design-expense-2020-2023",
+      "featured": false,
+      "date": "2020 年選舉／2023-02-19 回應",
+      "kicker": "親屬與競選經費 ／ 文宣及活動",
+      "category": "親屬與競選經費",
+      "claimType": "本人承認委託與媒體報導金額",
+      "title": "約 586 萬元文宣活動支出，交給妹妹公司。",
+      "question": "申報公開之外，價格與交付成果是否也接受同一標準的檢視？",
+      "quote": null,
+      "criticism": {
+        "by": "羅智強",
+        "text": "將林明溱兒子領薪的爭議，與蘇巧慧競選支出給胞妹公司對比，質疑民進黨對親屬交易的標準。",
+        "url": "https://www.taisounds.com/news/content/0/44807"
+      },
+      "record": {
+        "summary": "蘇巧慧承認 2020 年選舉委託妹妹的二三設計製作文宣與活動；媒體稱支出約 586 萬元，尚未逐筆核對申報總額。",
+        "items": [
+          {
+            "label": "本人承認的交易",
+            "text": "當年報導及本人貼文截圖記載，她承認聘妹妹公司設計文宣、辦活動，並主張報酬如實申報監察院。",
+            "url": "https://www.taisounds.com/news/content/0/44807"
+          },
+          {
+            "label": "金額不能混算",
+            "text": "這是競選支出給公司，不是政府補助。較早公視報導約 580 萬元；精確總額待逐筆申報核對，不能直接當妹妹個人薪資或淨利。",
+            "url": "https://news.pts.org.tw/article/487345"
+          }
+        ]
+      },
+      "response": {
+        "text": "她以妹妹的設計專業與服務內容回應，稱支出合法申報、公開透明，並認為與林明溱案不同。申報可供查閱，仍應核對價格、契約和交付成果。",
+        "url": "https://www.taisounds.com/news/content/0/44807"
+      },
+      "assessment": "可證的是她承認聘用胞妹公司。公開申報不等於交易已完成獨立審計，親屬交易也不自動違法；應把契約、單價與實際服務攤開檢驗。",
+      "unknowns": [
+        "未獨立逐筆核對監察院申報、契約、發票及交付成果。",
+        "未取得此交易被正式認定違法的文件。"
+      ],
+      "sources": [
+        {
+          "label": "太報：羅智強質疑與本人貼文回應",
+          "url": "https://www.taisounds.com/news/content/0/44807",
+          "type": "當年報導及貼文截圖"
+        },
+        {
+          "label": "公視：較早政治獻金支出報導",
+          "url": "https://news.pts.org.tw/article/487345",
+          "type": "當年採訪報導"
+        }
+      ]
+    },
+    {
+      "id": "taoyuan-library-subcontract-2022",
+      "featured": false,
+      "date": "2020 年承諾／2022-10-31 質疑",
+      "kicker": "親屬與公共資源 ／ 桃園總圖分包",
+      "category": "親屬與公共資源",
+      "claimType": "不投標承諾與下游分包爭議",
+      "title": "承諾不投政府標案，之後的分包算不算？",
+      "question": "承諾的文字範圍，與承接公部門計畫的實際角色，應分別講清楚。",
+      "quote": null,
+      "criticism": {
+        "by": "洪孟楷、舒翠玲等國民黨人士",
+        "text": "質疑二三設計在不再投政府標案的承諾後，仍透過下游合作參與桃園總圖多媒體案，要求說明分包程序與承諾界線。",
+        "url": "https://www.cna.com.tw/news/aipl/202210310143.aspx"
+      },
+      "record": {
+        "summary": "蘇巧純 2020 年承諾父親任內二三設計不再投政府標案；2022 年被質疑參與桃園總圖下游分包。二三設計實收金額未核實。",
+        "items": [
+          {
+            "label": "2020 年承諾",
+            "text": "當年聲明使用不再投標任何層級政府標案的範圍；是否涵蓋承接民間下游合作，不能把兩種交易混寫。",
+            "url": "https://news.pts.org.tw/article/487345"
+          },
+          {
+            "label": "2022 年被質疑的金額",
+            "text": "2,495 萬元是報導所指上游多媒體項目金額，不是已核實全數給二三設計。原分包契約與四次會議附件仍待核。",
+            "url": "https://taipeipost.org/84013/"
+          }
+        ]
+      },
+      "response": {
+        "text": "行政院稱二三設計沒有參與投標或議價，合作對象是得標廠商的民間下游。這個區分不能代替公開分包範圍、金額及履約角色。",
+        "url": "https://www.cna.com.tw/news/aipl/202210310143.aspx"
+      },
+      "assessment": "可追問不投標承諾是否充分交代實際公部門業務，以及分包是否透明合規。尚無證據支持把上游總價當蘇家收入，或直接寫成違法轉包；未取得蘇巧慧介入工程的直接資料。",
+      "unknowns": [
+        "原工程契約、變更設計、分包範圍與二三設計實收尚待取得。",
+        "未取得認定違法轉包的裁判或行政處分。"
+      ],
+      "sources": [
+        {
+          "label": "公視：2020 年不再投標聲明",
+          "url": "https://news.pts.org.tw/article/487345",
+          "type": "當事人聲明報導"
+        },
+        {
+          "label": "中央社：桃園總圖質疑與政院說明",
+          "url": "https://www.cna.com.tw/news/aipl/202210310143.aspx",
+          "type": "指控與機關回應"
+        },
+        {
+          "label": "台北郵報：分包及會議指控",
+          "url": "https://taipeipost.org/84013/",
+          "type": "記者會報導"
+        }
+      ]
+    },
+    {
+      "id": "weiru-akaswap-grants-2024-2026",
+      "featured": false,
+      "date": "2024–2026／2026-06 質疑及回應",
+      "kicker": "親屬與公共資源 ／ 平台及補助",
+      "category": "親屬與公共資源",
+      "claimType": "平台關係、補助分類與揭露爭議",
+      "title": "威如與 akaSwap 的關係，不能只靠雙方口號。",
+      "question": "受補助主體、妹妹的實際職位與關係揭露，能否用原始文件說清楚？",
+      "quote": null,
+      "criticism": {
+        "by": "陳清龍、林子宇、陳怡君等民眾黨人士",
+        "text": "質疑威如與 akaSwap 的關係、蘇巧純的平台職位及補助揭露，並連結蘇巧慧支持文化預算的立場。報導所列補助合計約 594.6 萬元。",
+        "url": "https://video.udn.com/news/1324213"
+      },
+      "record": {
+        "summary": "文化部確認威如的東方美人作品另獲科技藝術補助；所指黑潮計畫、台東採購與此補助為不同案。平台關係與實際受益仍需契約核對。",
+        "items": [
+          {
+            "label": "文化部原始說明",
+            "text": "黑潮三官出巡計畫受補助者為北藝大與太極影音；威如的東方美人屬另一科技藝術補助，不能把不同計畫合併成同一筆。",
+            "url": "https://www.moc.gov.tw/News_Content.aspx?n=105&s=257069"
+          },
+          {
+            "label": "經濟部對揭露的說明",
+            "text": "經部以計畫期間登記、投保及補助主體資料回應，稱尚無法認定違法。這不是法院判決，也未代替完整營運契約與申請書查核。",
+            "url": "https://www.cna.com.tw/news/afe/202606220309.aspx"
+          }
+        ]
+      },
+      "response": {
+        "text": "蘇巧慧稱 akaSwap 不是威如的關係企業，否認圖利。公司登記、平台營運與實際任職是不同問題，應以商標、契約及補助申請文件逐項核對。",
+        "url": "https://www.nownews.com/news/6844910"
+      },
+      "assessment": "支持整體文化預算，不能單獨證明替特定公司關說；否認公司關係，也不能取代揭露實際合作。補助合計不是蘇巧純個人所得，應追查各案主體、核定及分配。",
+      "unknowns": [
+        "平台歷史商標、營運契約、任職文件及完整補助申請與關係人欄位尚待取得。",
+        "未取得蘇巧慧介入個案審查的直接證據，或正式個案裁罰、起訴與判決。"
+      ],
+      "sources": [
+        {
+          "label": "聯合影音：民眾黨記者會",
+          "url": "https://video.udn.com/news/1324213",
+          "type": "指控方記者會報導"
+        },
+        {
+          "label": "文化部：黑潮與科技藝術計畫說明",
+          "url": "https://www.moc.gov.tw/News_Content.aspx?n=105&s=257069",
+          "type": "機關原始聲明"
+        },
+        {
+          "label": "中央社：經部回應利益揭露疑問",
+          "url": "https://www.cna.com.tw/news/afe/202606220309.aspx",
+          "type": "機關回應報導"
+        },
+        {
+          "label": "NOWnews：蘇巧慧否認公司關係",
+          "url": "https://www.nownews.com/news/6844910",
+          "type": "本人受訪回應"
+        }
+      ]
+    },
+    {
+      "id": "quantum-investment-grant-2022-2026",
+      "featured": false,
+      "date": "2022 年投資／2024 年補助／2026-09-07 告發",
+      "kicker": "親屬與公共資源 ／ 投資及補助",
+      "category": "親屬與公共資源",
+      "claimType": "國發基金投資、補助及具名告發",
+      "title": "曠世智能的近兩千萬投資，揭露了哪些關係？",
+      "question": "投資審議、親屬任職與補助的關係，應看完整文件及各自時序。",
+      "quote": null,
+      "criticism": {
+        "by": "民眾黨陳怡君、邸聖德、陳語倢等",
+        "text": "質疑蘇巧純相關公司受公部門投資及補助的揭露與審查，2026 年 9 月赴北檢告發前部會首長圖利。告發不等於已獲檢方或法院認定。",
+        "url": "https://www.tpp.org.tw/newsdetail/4830"
+      },
+      "record": {
+        "summary": "曠世智能獲國發基金約 1,999.9 萬元股權投資，另有 2024 年 SIIR 補助 120 萬元。投資不是補助，不能把公司取得款項全算家屬所得。",
+        "items": [
+          {
+            "label": "同一次投資，不能重算",
+            "text": "國發基金稱 2022 年投入與 2023 年募資報導是同一次現增，並主張經外部審議。應再核投資決議、契約與關係揭露。",
+            "url": "https://www.taisounds.com/news/content/71/259023"
+          },
+          {
+            "label": "補助與父親任期分開",
+            "text": "2024 年 SIIR 執行時，蘇貞昌已卸任。經部稱依程序審查；不能把這筆補助寫成他任內核發，也不能只憑程序回應就結案。",
+            "url": "https://www.cna.com.tw/news/asoc/202609070246.aspx"
+          }
+        ]
+      },
+      "response": {
+        "text": "國發基金稱只有一次投資且經外部審議；經部稱補助依程序辦理，並以父親任期及蘇巧純非代表人或計畫人員等回應圖利質疑。仍需原始審議與揭露文件。",
+        "url": "https://www.cna.com.tw/news/aipl/202605260258.aspx"
+      },
+      "assessment": "接近兩千萬元的金額、親屬職位及揭露規則值得檢驗，但金額大小本身不是關說證據。應追問審議紀錄與利益關係，不把政治告發升格為犯罪已成立。",
+      "unknowns": [
+        "歷史任職資料、投資契約及審議決議、SIIR 申請與結案原件尚待取得。",
+        "未取得蘇巧慧指示投資或補助的直接證據；未取得告發後起訴、不起訴或裁判原文。"
+      ],
+      "sources": [
+        {
+          "label": "民眾黨：2026 年 9 月告發聲明",
+          "url": "https://www.tpp.org.tw/newsdetail/4830",
+          "type": "指控方原始聲明"
+        },
+        {
+          "label": "中央社：投資及補助爭議",
+          "url": "https://www.cna.com.tw/news/aipl/202605260258.aspx",
+          "type": "指控與機關回應"
+        },
+        {
+          "label": "太報：國發基金六點說明",
+          "url": "https://www.taisounds.com/news/content/71/259023",
+          "type": "機關聲明媒體刊載"
+        },
+        {
+          "label": "中央社：告發與經部回應",
+          "url": "https://www.cna.com.tw/news/asoc/202609070246.aspx",
+          "type": "告發行動及回應報導"
+        }
+      ]
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   'use strict';
   const C = window.RecordsGameLibrary, select = document.getElementById('library-person'); if (!C || !select) return;
   const $ = id => document.getElementById(id), node = (tag,text,cls) => { const n = document.createElement(tag); if (text !== undefined) n.textContent = text; if (cls) n.className = cls; return n; };
-  const initial = C.person(new URLSearchParams(location.search).get('person')) || 'all', store = C.createPageStore(initial);
+  const initial = C.person(new URLSearchParams(location.search).get('person') || 'su-chiao-hui') || 'su-chiao-hui', store = C.createPageStore(initial);
   select.value = initial;
   let builtins = [], api = '', nextOffset = 0, hasMore = false, loading = false, controller = null, communityPhase = 'loading', catalogPhase = 'loading';
   function labels(ids) { return ids.map(id => C.SUBJECTS[id]).join('／'); }
@@ -25,7 +25,7 @@
       const art = cover(item,'arcade-cover'); art.append(node('span','PLAY NOW','arcade-live'));
       const copy = node('div',undefined,'arcade-card-copy'), tags = node('div',undefined,'arcade-card-tags'); tags.append(node('span',labels(item.subjectIds))); for (const tag of item.tags) tags.append(node('span',tag));
       const row = node('div',undefined,'arcade-play-row'); row.append(node('span','前往原站遊玩'),node('b','↗')); row.lastChild.setAttribute('aria-hidden','true');
-      copy.append(tags,node('h3',item.title),node('p',item.summary),row); link.append(art,copy); list.append(link);
+      copy.append(tags,node('h3',item.title),node('p',item.id==='su-quotes-quiz'?'精選題庫重新整理中。先閱讀已核對來源的形象與言行對照。':item.summary),row);if(item.id==='su-quotes-quiz'){art.querySelector('.arcade-live').textContent='題庫整理中';row.firstChild.textContent='查看題庫狀態';} link.append(art,copy); list.append(link);
     }
     $('builtin-empty').hidden = visible.length !== 0;
     $('builtin-empty').textContent = catalogPhase === 'loading' ? '正在確認共用遊戲目錄…' : catalogPhase !== 'ok' ? '目前無法確認內建遊戲資料。' : store.selected() === 'all' ? '目前沒有可確認的內建遊戲資料。' : `目前沒有 ${C.SUBJECTS[store.selected()]} 的內建遊戲；下方仍可查看經發布的社群投稿。`;
