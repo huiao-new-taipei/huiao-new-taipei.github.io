@@ -1,32 +1,66 @@
 {
   "schemaVersion": 1,
-  "snapshotAt": "2026-10-21",
+  "snapshotAt": "2026-10-22",
   "games": [
     {
+      "id": "shen-dialogue",
+      "subjectIds": [
+        "shen-pao-yang"
+      ],
+      "title": "原話接招：換你當沈委員",
+      "summary": "虛構情境，真實原話。從三句話選一句接招，六題後看看你有百分之幾的沈委員，再回到每句話的出處。",
+      "url": "https://puwa.taipei/game/dialogue/",
+      "coverUrl": "https://puwa.taipei/assets/og-game-dialogue.png",
+      "tags": [
+        "角色模擬",
+        "六題一輪",
+        "逐題來源"
+      ]
+    },
+    {
       "id": "shen-quotes-quiz",
-      "subjectIds": ["shen-pao-yang"],
+      "subjectIds": [
+        "shen-pao-yang"
+      ],
       "title": "這是沈伯洋說的嗎？",
       "summary": "左滑不是他，右滑是他。每輪六題，即時揭曉，再看有來源的原話。",
-      "url": "https://puwa-taipei.github.io/game/quiz/",
-      "coverUrl": "https://puwa-taipei.github.io/assets/og-game-quiz.png",
-      "tags": ["左右滑卡", "六題一輪", "附原文來源"]
+      "url": "https://puwa.taipei/game/quiz/",
+      "coverUrl": "https://puwa.taipei/assets/og-game-quiz.png",
+      "tags": [
+        "左右滑卡",
+        "六題一輪",
+        "附原文來源"
+      ]
     },
     {
       "id": "shen-red-notes",
-      "subjectIds": ["shen-pao-yang"],
+      "subjectIds": [
+        "shen-pao-yang"
+      ],
       "title": "紅紙鈔掉面具",
       "summary": "抓一疊道具紙鈔，瞄準，往前撒！40 秒四波，看看你能撒出幾連擊。",
-      "url": "https://puwa-taipei.github.io/game/red-notes/",
-      "coverUrl": "https://puwa-taipei.github.io/assets/og-game-red-notes.png",
-      "tags": ["3D 街機", "40 秒挑戰", "連擊加分"]
+      "url": "https://puwa.taipei/game/red-notes/",
+      "coverUrl": "https://puwa.taipei/assets/og-game-red-notes.png",
+      "tags": [
+        "3D 街機",
+        "40 秒挑戰",
+        "連擊加分"
+      ]
     },
     {
       "id": "su-quotes-quiz",
-      "subjectIds": ["su-chiao-hui"],
+      "subjectIds": [
+        "su-chiao-hui"
+      ],
       "title": "這是蘇巧慧說的嗎？",
-      "summary": "從有官方逐字稿來源的原話開始。左右滑出答案，再核對上下文與影片位置。",
+      "summary": "精選題庫正在重新核對，暫停出題。可先查看整理進度，或在人物選單選擇其他已開放遊戲。",
       "url": "https://huiao-new-taipei.github.io/game/quiz/",
-      "tags": ["左右滑卡", "官方逐字稿", "附原文來源"]
+      "tags": [
+        "題庫整理中",
+        "暫停出題",
+        "查看進度"
+      ],
+      "status": "paused"
     }
   ]
 }
