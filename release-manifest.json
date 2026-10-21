@@ -1,0 +1,177 @@
+{
+  "release": "huiao-new-taipei-v1",
+  "siteCanonical": "https://huiao-new-taipei.github.io/",
+  "releaseDate": "2026-10-21",
+  "sourceFileCount": 29,
+  "payloadFileCountExcludingManifest": 31,
+  "remoteDeploymentVerified": false,
+  "githubPagesDeployment": "pending-chrome-availability",
+  "sharedApiV17RemoteUpdateVerified": false,
+  "staticArchiveEntryTimestamp": "2000-01-01T00:00:00",
+  "manifestSelfExcluded": true,
+  "counts": {
+    "primary": 39,
+    "joint": 30,
+    "cosign": 571,
+    "unique": 640,
+    "policyPages": 14,
+    "selectedOfficialQuotes": 9
+  },
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5433,
+      "sha256": "c08e9e8eed07c2e2e40b5808ce44465ae6055be34fd19bab0b2292c34709999a"
+    },
+    {
+      "path": "assets/og-game-hub.png",
+      "bytes": 48597,
+      "sha256": "5a955958012c5778eef7751f4b040c8eb79207a5f32adbed3046f42e2adbbf86"
+    },
+    {
+      "path": "assets/og-game-quiz.png",
+      "bytes": 80280,
+      "sha256": "d726c3cf58a7964002c27770e41ce2364cb7e76d7e7e410e0918bb94fea00514"
+    },
+    {
+      "path": "assets/og-records.png",
+      "bytes": 71689,
+      "sha256": "80ca577b7d35b07a741bcff071ea2b207d2f0dda4a9458b46d605d25adb7e502"
+    },
+    {
+      "path": "contribute/config.json",
+      "bytes": 247,
+      "sha256": "d674fd74b032f8f2110b8c817ed7205914bcee64ee1fd20c0708b927eede12bb"
+    },
+    {
+      "path": "contribute/contribute.css",
+      "bytes": 12310,
+      "sha256": "2cd6b0d2ead68ee5b02a6a7009fc4cde77ab2fa5cf6aaf0ad2be3e56b7b34027"
+    },
+    {
+      "path": "contribute/core.js",
+      "bytes": 9179,
+      "sha256": "8aca895deb956b7a2a8177d5a6c6dd4094874e17152d3775491251e6e100302e"
+    },
+    {
+      "path": "contribute/form.js",
+      "bytes": 16080,
+      "sha256": "87f356e9d7ffbc5e9e6714f238df6d4eade0d5f6ac0108c8e530626aed3bd644"
+    },
+    {
+      "path": "contribute/index.html",
+      "bytes": 19804,
+      "sha256": "9ab9b96c67a0397541c52c31bda074b4e74eb962704e94f4e684f5e94d803a40"
+    },
+    {
+      "path": "data/analysis.json",
+      "bytes": 10026027,
+      "sha256": "dc7e443117a0d61272e6b9c59389420789e868e8fcea1bc952e573ad726f6839"
+    },
+    {
+      "path": "data/bills.json",
+      "bytes": 9794686,
+      "sha256": "f337cb2de52a2ce3184c42bd46915c63766a0c50f14a14d082c5f42f0f5c971e"
+    },
+    {
+      "path": "data/comparison-codebook.json",
+      "bytes": 3855,
+      "sha256": "95d5aa4c51f577aa183e4ce18c671ece3612946b6f40dafbda3bbe11f9e63b24"
+    },
+    {
+      "path": "data/game-catalog.json",
+      "bytes": 1324,
+      "sha256": "8b71e034116d6ad49bce5846085b73a82c16fd56e48dfb67019cf92a20519768"
+    },
+    {
+      "path": "data/policy.json",
+      "bytes": 22309,
+      "sha256": "5e59ea1b9501cb780235d1d217b74c7e0f39c94c45bd268a8413942da43023ea"
+    },
+    {
+      "path": "data/quotes.json",
+      "bytes": 25447,
+      "sha256": "41364a48ca9e3762acead265c773cda59df71ff472bd4c670aa62a8421ca335d"
+    },
+    {
+      "path": "downloads/bills.csv",
+      "bytes": 190437,
+      "sha256": "2e4db03ee9a000e8767a636095fd9b445807c9bb2543b1a552cb42c8e7572b8a"
+    },
+    {
+      "path": "downloads/obsidian-vault.zip",
+      "bytes": 10010093,
+      "sha256": "a3087c45bc7db50b16a6bb78f48148ab3b0be6b66ea222364ece3762eb714857"
+    },
+    {
+      "path": "game/hub.css",
+      "bytes": 15765,
+      "sha256": "0aba9ca0ec9ba21bb859f3b1afc3258136d608d7e9f5c7c334b112fc5e49774a"
+    },
+    {
+      "path": "game/index.html",
+      "bytes": 5158,
+      "sha256": "09736d71b3014b682137d120d913595230a59bf6a280c03da6db31017a253616"
+    },
+    {
+      "path": "game/library-core.js",
+      "bytes": 6911,
+      "sha256": "ff367a65ebec98f1ea3c44743dc18aec30112f13c1d42f65fd3794c1aa2882fb"
+    },
+    {
+      "path": "game/library.js",
+      "bytes": 9902,
+      "sha256": "3b2dc1d41126b944c929605a337c3722bef9552d74e338cc224cc802c465d05e"
+    },
+    {
+      "path": "game/quiz-engine.js",
+      "bytes": 25362,
+      "sha256": "69841227e69189c2f47df6f6cb9e27a891e0edf0a7fc33ec5e34fde9bc476ec0"
+    },
+    {
+      "path": "game/quiz/index.html",
+      "bytes": 5292,
+      "sha256": "3201d65904331348b90fe329566f148e4f87530de847a7f35090adab9c9bade4"
+    },
+    {
+      "path": "game/swipe-ui.css",
+      "bytes": 18739,
+      "sha256": "44b0b492877fa68e14558c6524dd211cdfa765ac51c0410da75eb18ceb33bc28"
+    },
+    {
+      "path": "index.html",
+      "bytes": 14219,
+      "sha256": "6e537f9b88558fdc9b76076190d30f9475d3714845e962e142863bfdde35b8ef"
+    },
+    {
+      "path": "observatory.css",
+      "bytes": 10414,
+      "sha256": "5d7cbfac3c3a4aec621e8f0cd99fdb2fabdfbb8036b5b2dd0b93c1592b62516c"
+    },
+    {
+      "path": "observatory.js",
+      "bytes": 14778,
+      "sha256": "5e85d8f59b5f0f2091c17ff8bc014d5edb17dc7d1731751b919a967c649d085e"
+    },
+    {
+      "path": "quiz.css",
+      "bytes": 42,
+      "sha256": "0d404c536bf86e3fa900937253b4974ef9490094218831ca9494a426d9d2ee27"
+    },
+    {
+      "path": "review/index.html",
+      "bytes": 1039,
+      "sha256": "440bda61a5c3d4f2e986bc8a2da09305547551215dcd11aa1c4a7ac67182b720"
+    },
+    {
+      "path": "style.css",
+      "bytes": 42493,
+      "sha256": "93cdcf71697465f79d3fed3eca833bff8ea0422a8983a87fb5d70b0d9357c93c"
+    }
+  ]
+}
