@@ -1,21 +1,35 @@
 {
-  "release": "huiao-new-taipei-v1",
+  "release": "huiao-new-taipei-v3",
   "siteCanonical": "https://huiao-new-taipei.github.io/",
-  "releaseDate": "2026-10-21",
-  "sourceFileCount": 29,
-  "payloadFileCountExcludingManifest": 31,
-  "remoteDeploymentVerified": false,
-  "githubPagesDeployment": "pending-chrome-availability",
-  "sharedApiV17RemoteUpdateVerified": false,
-  "staticArchiveEntryTimestamp": "2000-01-01T00:00:00",
+  "releaseDate": "2026-10-22",
+  "sourceFileCount": 32,
+  "payloadFileCountExcludingManifest": 34,
   "manifestSelfExcluded": true,
+  "previousRelease": "huiao-new-taipei-v1",
+  "deploymentStatus": "Verification receipt is private and records the exact deployed revision.",
   "counts": {
     "primary": 39,
     "joint": 30,
     "cosign": 571,
     "unique": 640,
     "policyPages": 14,
-    "selectedOfficialQuotes": 9
+    "caseCount": 10,
+    "caseIds": [
+      "campaign-design-expense-2020-2023",
+      "children-colleagues-20240528",
+      "guan-min-2018-2026",
+      "kindergarten-2023-2026",
+      "ntsec-c10725-2018-2020",
+      "quantum-investment-grant-2022-2026",
+      "taoyuan-library-subcontract-2022",
+      "wang-family-procurement-20250102",
+      "weiru-akaswap-grants-2024-2026",
+      "zhang-shujuan-2022-2026"
+    ],
+    "archivedQuotes": 9,
+    "curatedQuoteCount": 0,
+    "quizState": "curation-pending",
+    "sourcePin": "41364a48ca9e3762acead265c773cda59df71ff472bd4c670aa62a8421ca335d"
   },
   "files": [
     {
@@ -25,8 +39,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5433,
-      "sha256": "c08e9e8eed07c2e2e40b5808ce44465ae6055be34fd19bab0b2292c34709999a"
+      "bytes": 3554,
+      "sha256": "fc8c2d64fa61fc168bf8b6a163285880cb0d766d0fa203adb8a86a8c62f2728e"
     },
     {
       "path": "assets/og-game-hub.png",
@@ -69,6 +83,11 @@
       "sha256": "9ab9b96c67a0397541c52c31bda074b4e74eb962704e94f4e684f5e94d803a40"
     },
     {
+      "path": "data/accountability.json",
+      "bytes": 34303,
+      "sha256": "e1099ddd304bc34820e382030edd8d9d430dee9de36162e01acb25fa9c1cd2c6"
+    },
+    {
       "path": "data/analysis.json",
       "bytes": 10026027,
       "sha256": "dc7e443117a0d61272e6b9c59389420789e868e8fcea1bc952e573ad726f6839"
@@ -84,6 +103,11 @@
       "sha256": "95d5aa4c51f577aa183e4ce18c671ece3612946b6f40dafbda3bbe11f9e63b24"
     },
     {
+      "path": "data/curation.json",
+      "bytes": 1175,
+      "sha256": "2bb92c733a47c25e25a3c0323dbd37b71d5c5e24ea1792af8d27f063ab10dfcd"
+    },
+    {
       "path": "data/game-catalog.json",
       "bytes": 1324,
       "sha256": "8b71e034116d6ad49bce5846085b73a82c16fd56e48dfb67019cf92a20519768"
@@ -97,6 +121,11 @@
       "path": "data/quotes.json",
       "bytes": 25447,
       "sha256": "41364a48ca9e3762acead265c773cda59df71ff472bd4c670aa62a8421ca335d"
+    },
+    {
+      "path": "downloads/accountability-vault-v3.zip",
+      "bytes": 56278,
+      "sha256": "99df557b4a02392ab639b70c00a81ae45c1a31aa41ba308ccd5a41ce39aab8ff"
     },
     {
       "path": "downloads/bills.csv",
@@ -115,8 +144,8 @@
     },
     {
       "path": "game/index.html",
-      "bytes": 5158,
-      "sha256": "09736d71b3014b682137d120d913595230a59bf6a280c03da6db31017a253616"
+      "bytes": 5130,
+      "sha256": "76df1601c83567077cf0d755c61e4dcfcd37f945f9afe014bb7587f73fd1a97b"
     },
     {
       "path": "game/library-core.js",
@@ -125,18 +154,18 @@
     },
     {
       "path": "game/library.js",
-      "bytes": 9902,
-      "sha256": "3b2dc1d41126b944c929605a337c3722bef9552d74e338cc224cc802c465d05e"
+      "bytes": 10184,
+      "sha256": "e159041ac8ab3465f69891a24557a7d3e2b8e35e4a37b70a4775170c62e547de"
     },
     {
       "path": "game/quiz-engine.js",
-      "bytes": 25362,
-      "sha256": "69841227e69189c2f47df6f6cb9e27a891e0edf0a7fc33ec5e34fde9bc476ec0"
+      "bytes": 27292,
+      "sha256": "395ab9d73937fb7abb35a1dac428d605c0e6c0de1a2d1ea6e8ebebc0033b1f6a"
     },
     {
       "path": "game/quiz/index.html",
-      "bytes": 5292,
-      "sha256": "3201d65904331348b90fe329566f148e4f87530de847a7f35090adab9c9bade4"
+      "bytes": 5355,
+      "sha256": "59754e746db7edb14eeef0d9a9c528dbe2383476eb7c248d5b76751b2bb68532"
     },
     {
       "path": "game/swipe-ui.css",
@@ -145,18 +174,18 @@
     },
     {
       "path": "index.html",
-      "bytes": 14219,
-      "sha256": "6e537f9b88558fdc9b76076190d30f9475d3714845e962e142863bfdde35b8ef"
+      "bytes": 15643,
+      "sha256": "b2da417068b6b126ae288a1fb42382ce81b255dd8eb6d0075f0cc25e60de33bf"
     },
     {
       "path": "observatory.css",
-      "bytes": 10414,
-      "sha256": "5d7cbfac3c3a4aec621e8f0cd99fdb2fabdfbb8036b5b2dd0b93c1592b62516c"
+      "bytes": 19099,
+      "sha256": "330b6ae559dbfc4ef63779c7f70082527f734498cefef82863925a5efea1431e"
     },
     {
       "path": "observatory.js",
-      "bytes": 14778,
-      "sha256": "5e85d8f59b5f0f2091c17ff8bc014d5edb17dc7d1731751b919a967c649d085e"
+      "bytes": 20202,
+      "sha256": "84912a1b9375dcc101d1389da0d415006ec65e322ad39fdb259cb0fdf13b2db8"
     },
     {
       "path": "quiz.css",
@@ -173,5 +202,6 @@
       "bytes": 42493,
       "sha256": "93cdcf71697465f79d3fed3eca833bff8ea0422a8983a87fb5d70b0d9357c93c"
     }
-  ]
+  ],
+  "revision": "v3-final"
 }
