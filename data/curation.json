@@ -1,11 +1,29 @@
 {
-  "version": "su-curation-v6",
+  "version": "su-curation-v7",
   "subjectId": "su-chiao-hui",
-  "sourceVersion": "su-quiz-v6",
-  "sourceSha256": "69c06e9cb25278621dbaeb302f4ef6684ec5af997d10a7b84412bfd48f438df9",
+  "sourceVersion": "su-quiz-v7",
+  "sourceSha256": "1899f96af7ff974887b52c0ea01a4e2654f733582a8589b1422e366a6ea49f1b",
   "curatedIds": [
     "su-children-classmates-20240528-v6",
+    "su-kindergarten-outrage-title-20230608",
+    "su-kindergarten-drug-heading-20230608",
+    "su-kindergarten-already-drugs-20230609",
+    "su-kindergarten-copy-better-20230609",
     "su-procurement-retort-20250102-v6",
+    "su-zhang-family-scrutiny-20220922-candidate-v7",
+    "su-zhang-face-handle-explain-20220922-candidate-v7",
+    "su-guo-gender-zero-202309-candidate-v7",
+    "su-guo-gender-fail-202309-candidate-v7",
+    "su-fu-abandon-country-20240502-candidate-v7",
+    "su-fu-pacific-retreat-20240501-candidate-v7",
+    "investment-crime-comparison-20260526",
+    "su-mainland-retort-20211013",
+    "su-drag-under-20211013",
+    "su-empty-talk-20230517",
+    "su-which-not-nonsense-20230517",
+    "su-hou-learn-ma-20230527",
+    "su-sugar-poison-20231214",
+    "su-largest-fraud-question-20231214",
     "su-talking-about-myself-20261002-v6"
   ],
   "archiveIds": [
@@ -20,10 +38,10 @@
     "su-official-171032"
   ],
   "quizState": "ready",
-  "note": "本期精選3則本人發言、3個事件；舊版9則及脈絡修正保留進階檔案，不自動回流猜題。",
+  "note": "新版本人原話選集；同一事件保留多句但同輪只抽一句，競辦與語境補充不入遊戲。舊9則一般政策保持封存。",
   "contextOverrides": {
     "su-official-170942": "她建議針對高齡長者及大學生設計包租代管專案，讓政府協助建立房源、契約與租金安排。這句回應的是大學附近大房東是否願意加入，提議由政府擔任協調的平台。",
     "su-official-171032": "教育及文化、內政聯席會議討論原住民族學校法草案時，她支持設校方向，追問族語師資、課程研發及行政分工，要求補足實驗教育學校資源與跨區同族別課程合作。"
   },
-  "sourcePath": "/data/quiz-quotes-v6.json"
+  "sourcePath": "/data/quote-library-v7.json"
 }

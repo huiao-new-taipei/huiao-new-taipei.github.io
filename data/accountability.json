@@ -36,7 +36,7 @@
         "text": "這完全是在講我自己",
         "speaker": "蘇巧慧",
         "sourceType": "2026 年受訪回應，媒體直接引述",
-        "url": "https://news.tvbs.com.tw/politics/4030633",
+        "url": "https://udn.com/news/story/124652/9790707",
         "date": "2026-10-02",
         "audioVerified": false,
         "locator": null
@@ -186,7 +186,7 @@
         "text": "可恥又可悲",
         "speaker": "蘇巧慧",
         "sourceType": "同時期媒體直接引述；有新聞影片入口",
-        "url": "https://www.ftvnews.com.tw/news/detail/2025102P05M1",
+        "url": "https://newtalk.tw/news/view/2025-01-02/951387",
         "date": "2025-01-02",
         "audioVerified": false,
         "locator": null
@@ -249,7 +249,7 @@
       "category": "名譽傷害爭議",
       "date": "2018-01-25／2026-10-02",
       "kicker": "延伸 ／ 共同記者會的責任",
-      "claimType": "共同出席、具名批評與校方紀錄",
+      "claimType": "共同出席、逐位發言、本人回應與台大正式紀錄",
       "title": "管中閔重提往事：共同記者會之後呢？",
       "question": "她當年共同出席質疑記者會；台大決定不立案後，如何面對後續問責？",
       "quote": null,
@@ -259,115 +259,188 @@
         "url": "https://www.chinatimes.com/realtimenews/20261002002946-260407"
       },
       "record": {
-        "summary": "2018 年蘇巧慧、張廖萬堅、何欣純共同開記者會。當時報導把具體抄襲比對歸於張廖，蘇主要談遴選程序。台大之後決定不立案調查。",
+        "summary": "2018年1月25日她與張廖萬堅、何欣純共同召開記者會。當日報導將論文比對指控歸於張廖，她的可核內容主要談校長遴選制度。台大其後兩次實質審閱，決議不予立案。",
         "items": [
           {
-            "label": "當年記者會",
-            "text": "應逐位辨認說話者，不把張廖的所有指控移植成蘇的原話；共同出席的政治責任仍可檢視。",
+            "label": "共同出席與本人說話分開",
+            "text": "中央社逐位記錄發言。具體抄襲比對與18項雷同歸張廖萬堅；蘇談大學自治、遴委會釋疑及制度規範。共同出席可問政治責任，但不能把其他人的每一句指控算成她原話。",
+            "url": "https://www.cna.com.tw/news/firstnews/201801250125.aspx"
+          },
+          {
+            "label": "比對指控的實際說話者",
+            "text": "中央社當日下午詳稿仍將文字圖表的18項雷同、重複發表疑問及校長標準批評歸於張廖萬堅，未提供蘇逐句指控論文抄襲的引文。",
             "url": "https://www.cna.com.tw/news/aipl/201801250213.aspx"
           },
           {
-            "label": "台大正式紀錄",
-            "text": "2018 年 2 月 9 日會議紀錄載不立案及理由；這不是認定蘇故意誹謗的刑事判決。",
+            "label": "台大正式會議紀錄",
+            "text": "2018年2月9日第4次會議重申已實質審閱並說明初稿、先後時序及致謝等因素；記錄認為管中閔自始無抄襲意圖，決議不予立案。不是完全未看內容，也不是對蘇犯罪或故意造謠的裁判。",
             "url": "https://ori.ntu.edu.tw/news/download/fileSn/2"
+          },
+          {
+            "label": "非常痛心一句仍待原聲",
+            "text": "2026年對手轉述將這句歸於2018，但同日另有報導歸於周玉蔻節目；已找到的2023本人餵毒貼文也有同句。未取回2018原聲前，不將重複四字硬安到論文案。",
+            "url": "https://www.i-meihua.com/Article/Detail/57094"
           }
         ]
       },
       "response": {
-        "text": "2026 年競辦回應三案質疑，稱外界扭曲事實。論文爭議仍應將她本人說法、共同出席與校方後續處理對照。",
-        "url": "https://www.cna.com.tw/news/aipl/202610050103.aspx"
+        "text": "2026年10月3日她受訪說，當時針對的是大學校長遴選制度，個人論文應交專業單位審查，自己沒有評論；10月5日競辦再否認她曾指控論文為假。應與當日逐位發言和共同出席紀錄並讀，不能把回應本身當免責結論，也不能未核原聲就判它說謊。",
+        "url": "https://ctinews.com/news/items/zMW5mBqwWN"
       },
-      "assessment": "不能用「不是她親口說每一句」就結束共同記者會的問責；也不能把共同出席寫成已被判造謠。可以追問的是：正式結果出來後，原先疑慮有沒有清楚交代。",
+      "assessment": "值得追問的不是把每一句都算到她頭上，而是共同記者會傳遞了什麼指控、她本人如何表態，以及台大正式結果出來後有沒有交代。當日可核報導確實將她的內容記為制度說明，本輪不把中性制度句或未核歸屬的非常痛心塞進強烈原話題庫。",
       "unknowns": [
-        "未取得她對台大 2018 年 2 月 9 日決議逐項回應的完整原文。"
+        "2018年1月25日完整記者會原片及蘇逐句原聲尚未取得，無可確認句內秒數。",
+        "非常痛心是否在2018該場由她說出，仍有轉述事件歸屬衝突，暫不入題。",
+        "未取得她對2018年2月9日台大決議逐項回應的完整原文，亦未全面查證歷年道歉／更正，不能稱至今零道歉。",
+        "本輪未找到3–5句符合強烈本人原話條件的論文案候選，不以他人指控或普通政策句補數。"
       ],
       "sources": [
         {
-          "label": "2018 年中央社現場報導",
-          "url": "https://www.cna.com.tw/news/aipl/201801250213.aspx",
-          "type": "記者會報導"
+          "label": "中央社2018當日逐位發言",
+          "url": "https://www.cna.com.tw/news/firstnews/201801250125.aspx",
+          "type": "當日採訪報導"
         },
         {
-          "label": "台大正式會議紀錄",
+          "label": "中央社當日下午：比對指控歸張廖",
+          "url": "https://www.cna.com.tw/news/aipl/201801250213.aspx",
+          "type": "當日採訪報導"
+        },
+        {
+          "label": "台大2018-02-09正式會議紀錄",
           "url": "https://ori.ntu.edu.tw/news/download/fileSn/2",
           "type": "校方原始文件"
         },
         {
-          "label": "管中閔批評與蘇回應",
-          "url": "https://www.chinatimes.com/realtimenews/20261002002946-260407",
-          "type": "具名批評報導"
+          "label": "本人2026-10-03聯訪回應",
+          "url": "https://ctinews.com/news/items/zMW5mBqwWN",
+          "type": "本人回應報導，未核音"
         },
         {
-          "label": "競辦回應",
+          "label": "競辦2026-10-05回應",
           "url": "https://www.cna.com.tw/news/aipl/202610050103.aspx",
-          "type": "競辦回應"
+          "type": "競辦發言人回應"
+        },
+        {
+          "label": "管中閔批評及對手轉述",
+          "url": "https://udn.com/vote2026/story/124652/9795998",
+          "type": "具名批評，非調查認定"
+        },
+        {
+          "label": "不同事件歸屬的報導，待核原聲",
+          "url": "https://www.i-meihua.com/Article/Detail/57094",
+          "type": "後續記者會報導"
+        },
+        {
+          "label": "王鴻薇委員新聞稿",
+          "url": "https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=47012&pid=266521",
+          "type": "委員批評稿，不是立法院調查結論"
         }
       ]
     },
     {
       "id": "kindergarten-2023-2026",
-      "featured": false,
+      "featured": true,
       "category": "定調與後續結果",
       "date": "2023-06／2025-09／2026-10",
       "kicker": "延伸 ／ 當初的定調，有沒有更新？",
-      "claimType": "舊貼文截圖報導與檢驗、偵查紀錄",
-      "title": "從疑似餵藥到二度不起訴，她如何交代？",
-      "question": "調查未完成時的強烈定調，在檢驗與偵查結果出來後，應如何更正或說明？",
-      "quote": null,
+      "claimType": "本人原始貼文、當日採訪與後續偵查結果",
+      "title": "查明之前，先寫成「餵毒」。",
+      "question": "原貼至今仍能直接核對。她當時如何定調，檢驗與偵查結果出來後又如何交代？",
+      "quote": {
+        "text": "孩子體內驗出的藥物，是 #毒品",
+        "speaker": "蘇巧慧",
+        "sourceType": "本人Facebook原始公開貼文，已直接讀取",
+        "url": "https://www.facebook.com/chiaohui.su/posts/pfbid0A5p8qjGrJML1fQxpgW6CWikVgZjjCSxbF8iXWvjDBkR3BdpZuEzsoaQdi8MxDfLjl",
+        "date": "2023-06-08",
+        "audioVerified": false,
+        "locator": "原貼第1點標題，保留 #毒品；僅將頁面換行合成單行。"
+      },
       "criticism": {
-        "by": "李四川競辦",
-        "text": "2026 年公布一張標示 2023 年 6 月 8 日的蘇巧慧舊貼文截圖，質疑她過早用毒品定調。本站尚未直接取回本人完整原貼。",
-        "url": "https://udn.com/news/story/124652/9823942"
+        "by": "李四川競辦；幼教界批評者",
+        "text": "批評她在調查未明時使用餵毒定調，要求向受影響的親師生說明、道歉。這些問責可與原貼及檢驗結果對照；恐慌與離職潮歸因於她，仍是批評者的主張。",
+        "url": "https://udn.com/vote2026/story/124652/9823942"
       },
       "record": {
-        "summary": "2023 年新北地檢署宣布不起訴，36 份毛髮檢體未檢出所查巴比妥及苯二氮平類。2025 年報導續查後仍因證據不足二度不起訴。行政糾正是另一項判斷。",
+        "summary": "本輪已直接取回本人2023年6月8日原貼，並找到次日記者會採訪。首次偵查未證實餵藥，2025年續查仍證據不足二度不起訴；2024年監察院另對市府行政處置提出糾正。",
         "items": [
           {
-            "label": "刑事偵查",
-            "text": "不能把初步檢測值直接等同曾服用毒品。第二次不起訴的報導當時仍可再議；本頁不推定其後司法狀態。",
+            "label": "本人原貼，已找到",
+            "text": "本人驗證帳號的公開永久連結仍可讀，標題與第1點明確以餵毒及毒品表述，不再只依賴對手截圖。原貼編輯歷程未核。",
+            "url": "https://www.facebook.com/chiaohui.su/posts/pfbid0A5p8qjGrJML1fQxpgW6CWikVgZjjCSxbF8iXWvjDBkR3BdpZuEzsoaQdi8MxDfLjl"
+          },
+          {
+            "label": "翌日記者會",
+            "text": "2023年6月9日現場報導將案件描述為已餵食毒品的表述歸於她；同場也有對侯政策的譏諷。未取得完整原片，不提供假秒數，也不把張宏陸的恩恩案翻版一語移植給她。",
+            "url": "https://watchout.tw/reports/v0s8YDGsKcXzg38Bv68s"
+          },
+          {
+            "label": "2023年首次刑事偵查",
+            "text": "7月12日檢方原始新聞稿載不起訴；36份毛髮檢體均未檢出所查巴比妥及苯二氮平類藥物，並說明確認檢驗與免疫篩驗不同。提告內容不可截成檢方認定。",
+            "url": "https://www.pcc.moj.gov.tw/media/325865/112-07-12-新北地檢署偵辦涉嫌餵食幼童不明藥物案-偵查終結為不起訴處分-新聞稿-核定-docx.pdf?mediaDL=true"
+          },
+          {
+            "label": "2025年再議發回後續查",
+            "text": "中央社9月3日報導，家長再議發回後，檢方續查仍認證據不足二度不起訴；當時可再議。續查涉及8名幼童，與首度36份檢體範圍不同。",
             "url": "https://www.cna.com.tw/news/asoc/202509030104.aspx"
           },
           {
-            "label": "行政責任",
-            "text": "監察院 2024 年另糾正新北市府。行政處置有缺失，不等於已證實餵毒；刑事證據不足也不抹去行政問題。",
+            "label": "市府行政責任，分開判讀",
+            "text": "監察院113教正0016糾正取證、檢驗安排與公布、安置等違失。行政問題不能證明實際餵毒；刑事證據不足也不抹去行政問題。",
             "url": "https://www.cy.gov.tw/CyBsBoxContent.aspx?n=134&s=48859"
           }
         ]
       },
       "response": {
-        "text": "她與競辦說，當時市府曾公布檢測反應，民代有責任要求處理。這說明她主張的監督背景，仍需交代原貼用語及後續是否更新說法。",
+        "text": "2026年10月5日競辦發言人劉芳宇說，當時家長陳情與市府說明都有藥物反應，市府也罰款撤照，藍營亦要求徹查，蘇依當時案情要求負責是民代職責。這交代監督背景，仍未逐句回答原貼將未完成調查稱為餵毒的定調。此為發言人回應，不冒充她的逐字原話。",
         "url": "https://www.cna.com.tw/news/aipl/202610050103.aspx"
       },
-      "assessment": "應檢驗證據未齊時如何定調、之後如何面對受影響的親師生。監督職責不能直接免除文字責任；未取回原貼前，也不能將轉載截圖當成已獨立核對的原文。",
+      "assessment": "原貼讓問責具體：她在偵查尚未終結時，將當時檢驗反應寫成餵毒。後來確認檢驗與偵查未能支持這個定調，值得追問她是否向同一批讀者清楚更新或更正。民代監督責任不能代替文字責任；也不能僅據這篇貼文就斷言她故意造謠、造成全國離職潮，或已被判犯罪。",
       "unknowns": [
-        "本人完整舊貼文、編輯紀錄與後續更正尚待取得。",
-        "未取得 2025 年第二次不起訴原處分及其後再議結果。"
+        "本人原貼已直接取得；尚未核對完整編輯歷程，以及後續所有更正、補充與道歉紀錄，不寫截至今日從未道歉。",
+        "2023年6月9日完整記者會原片及句內音訊秒數未取得。",
+        "未取得2025年第二次不起訴處分原件及其後再議結果；不稱全案截至2026已全部確定。",
+        "未取得能將全國恐慌、教師離職潮單獨歸因於她的統計或正式研究。"
       ],
       "sources": [
         {
-          "label": "新北地檢署 2023-07-12 原始新聞稿",
-          "url": "https://www.pcc.moj.gov.tw/media/325865/112-07-12-%E6%96%B0%E5%8C%97%E5%9C%B0%E6%AA%A2%E7%BD%B2%E5%81%B5%E8%BE%A6%E6%B6%89%E5%AB%8C%E9%A4%B5%E9%A3%9F%E5%B9%BC%E7%AB%A5%E4%B8%8D%E6%98%8E%E8%97%A5%E7%89%A9%E6%A1%88-%E5%81%B5%E6%9F%A5%E7%B5%82%E7%B5%90%E7%82%BA%E4%B8%8D%E8%B5%B7%E8%A8%B4%E8%99%95%E5%88%86-%E6%96%B0%E8%81%9E%E7%A8%BF-%E6%A0%B8%E5%AE%9A-docx.pdf?mediaDL=true",
+          "label": "本人2023-06-08原始貼文（已直接讀取）",
+          "url": "https://www.facebook.com/chiaohui.su/posts/pfbid0A5p8qjGrJML1fQxpgW6CWikVgZjjCSxbF8iXWvjDBkR3BdpZuEzsoaQdi8MxDfLjl",
+          "type": "本人原始文章"
+        },
+        {
+          "label": "沃草：2023-06-09當日記者會",
+          "url": "https://watchout.tw/reports/v0s8YDGsKcXzg38Bv68s",
+          "type": "當日現場採訪報導，未核音"
+        },
+        {
+          "label": "同日FTNN報導由鏡週刊刊載",
+          "url": "https://www.mirrormedia.mg/external/ftnn_11300",
+          "type": "同時期報導交叉核對"
+        },
+        {
+          "label": "新北檢2023-07-12原始新聞稿",
+          "url": "https://www.pcc.moj.gov.tw/media/325865/112-07-12-新北地檢署偵辦涉嫌餵食幼童不明藥物案-偵查終結為不起訴處分-新聞稿-核定-docx.pdf?mediaDL=true",
           "type": "檢方原始文件"
         },
         {
-          "label": "舊貼文截圖與競辦批評",
-          "url": "https://udn.com/news/story/124652/9823942",
-          "type": "媒體報導對手公布截圖"
-        },
-        {
-          "label": "2025 年二度不起訴報導",
+          "label": "2025年二度不起訴報導",
           "url": "https://www.cna.com.tw/news/asoc/202509030104.aspx",
           "type": "司法報導"
         },
         {
-          "label": "監察院糾正案",
+          "label": "監察院113教正0016糾正案",
           "url": "https://www.cy.gov.tw/CyBsBoxContent.aspx?n=134&s=48859",
           "type": "官方行政紀錄"
         },
         {
-          "label": "蘇競辦回應",
+          "label": "蘇競辦2026-10-05回應",
           "url": "https://www.cna.com.tw/news/aipl/202610050103.aspx",
-          "type": "競辦回應"
+          "type": "競辦發言人回應"
+        },
+        {
+          "label": "2026年對手公布截圖及批評",
+          "url": "https://udn.com/vote2026/story/124652/9823942",
+          "type": "具名批評，非調查認定"
         }
       ]
     },
@@ -612,64 +685,246 @@
     {
       "id": "quantum-investment-grant-2022-2026",
       "featured": false,
-      "date": "2022 年投資／2024 年補助／2026-09-07 告發",
-      "kicker": "親屬與公共資源 ／ 投資及補助",
       "category": "親屬與公共資源",
-      "claimType": "國發基金投資、補助及具名告發",
-      "title": "曠世智能的近兩千萬投資，揭露了哪些關係？",
-      "question": "投資審議、親屬任職與補助的關係，應看完整文件及各自時序。",
-      "quote": null,
+      "date": "2022年現增／2023年募資公告／2024年補助／2026年查核",
+      "kicker": "親屬與公共資源 ／ 投資、補助分開問",
+      "claimType": "本人回應、競辦代答、具名質疑及查核進度",
+      "title": "近4,500萬元募資：哪些金額有原件，哪些仍待查？",
+      "question": "不只看1,999萬國發基金；台企銀創投的決策、親屬董事角色與投後管理應如何交代？",
+      "quote": {
+        "text": "合法的事情不怕查",
+        "speaker": "蘇巧慧",
+        "sourceType": "2026-10-21本人受訪報導；未核原聲",
+        "url": "https://news.tvbs.com.tw/politics/4039408",
+        "date": "2026-10-21",
+        "audioVerified": false,
+        "locator": null
+      },
       "criticism": {
-        "by": "民眾黨陳怡君、邸聖德、陳語倢等",
-        "text": "質疑蘇巧純相關公司受公部門投資及補助的揭露與審查，2026 年 9 月赴北檢告發前部會首長圖利。告發不等於已獲檢方或法院認定。",
-        "url": "https://www.tpp.org.tw/newsdetail/4830"
+        "by": "賴士葆、林德福等立委；民眾黨告發者",
+        "text": "立委要求查投前審議、投後管理及是否知悉親屬關係；另民眾黨曾赴監院及北檢告發。人事調動與投資間有因果或違法，仍是指控，不是已完成查核認定。",
+        "url": "https://www.taisounds.com/news/content/75/295319"
       },
       "record": {
-        "summary": "曠世智能獲國發基金約 1,999.9 萬元股權投資，另有 2024 年 SIIR 補助 120 萬元。投資不是補助，不能把公司取得款項全算家屬所得。",
+        "summary": "國發基金季報可核19,999千元投資餘額；當時FINDIT彙整載總輪募資約4,500萬元、台企銀領投與國發跟投。銀行資料可核臺企銀創投持股，但未直接核得初始2,500萬元成本原始決議；分項金額此輪仍來自質詢報導。",
         "items": [
           {
-            "label": "同一次投資，不能重算",
-            "text": "國發基金稱 2022 年投入與 2023 年募資報導是同一次現增，並主張經外部審議。應再核投資決議、契約與關係揭露。",
-            "url": "https://www.taisounds.com/news/content/71/259023"
+            "label": "國發基金的範圍",
+            "text": "官方稱只參與一次現金增資；2022/11投入與2023/2募資新聞不可重算。1,999萬餘僅是國發基金部分，不能拿這份澄清否定另有台企銀創投。",
+            "url": "https://www.ndc.gov.tw/News_Content.aspx?n=B3166DEAC8BA29A7&s=19EBC50B6600CD32"
           },
           {
-            "label": "補助與父親任期分開",
-            "text": "2024 年 SIIR 執行時，蘇貞昌已卸任。經部稱依程序審查；不能把這筆補助寫成他任內核發，也不能只憑程序回應就結案。",
-            "url": "https://www.cna.com.tw/news/asoc/202609070246.aspx"
+            "label": "公股創投持股與估值",
+            "text": "銀行2025年底資料列臺企銀創投持1,600千股、8.89%、帳面1,140.8萬元。這是期末公允價值，不是初始投資成本，也不是可直接換算的最新每股股價。",
+            "url": "https://www.tbb.com.tw/zh-tw/-/media/tbb/files/zh-tw/about/legal-disclaimers/financial-information/overview/114y-4s.pdf?hash=D44D771EF34BC117BEF8D28C525AE1EC&sc_lang=zh-tw"
+          },
+          {
+            "label": "另筆SIIR補助",
+            "text": "2024年服務業創新研發補助120萬元要獨立核對；當年蘇貞昌已卸任。二三設計的政府採購也是另案，不能和曠世股權投資拼成同一標案。",
+            "url": "https://www.cna.com.tw/news/aipl/202605260258.aspx"
+          },
+          {
+            "label": "負責人一詞",
+            "text": "本人說妹妹不是公司負責人；登記代表人與公司法董事責任應分辨。公司法第8條將股份有限公司董事列為該法公司負責人，不能只說非董事長就略過董事角色；特定利衝法適用仍需另外認定。",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0080001&flno=8"
+          },
+          {
+            "label": "10/21審計進度",
+            "text": "現場報導載審計長正查創業天使投資方案、將資料納入，先估1至2月，後允半個月先提初步結果；另有財委會要求兩週查核報告的報導。截止10/22本輪未定位到本案已完成的公開審計結論。",
+            "url": "https://www.taisounds.com/news/content/75/295319"
           }
         ]
       },
       "response": {
-        "text": "國發基金稱只有一次投資且經外部審議；經部稱補助依程序辦理，並以父親任期及蘇巧純非代表人或計畫人員等回應圖利質疑。仍需原始審議與揭露文件。",
-        "url": "https://www.cna.com.tw/news/aipl/202605260258.aspx"
+        "text": "本人6/4稱未干預妹妹工作，10/21稱依法填件且不怕查。10/14劉芳宇另以其他家屬標案反批雙標，是競辦代答。國發基金主張外部專家審議，經部主張SIIR依程序；這些回應不代替公開審議文件。",
+        "url": "https://www.cna.com.tw/news/aipl/202610140106.aspx"
       },
-      "assessment": "接近兩千萬元的金額、親屬職位及揭露規則值得檢驗，但金額大小本身不是關說證據。應追問審議紀錄與利益關係，不把政治告發升格為犯罪已成立。",
+      "assessment": "應把投資決議、關係揭露及投後管理列為可檢驗問題。親屬任董事不是違法證據；當事人說合法也不能結案。約4,500萬元總輪募資、其中國發基金分項及銀行持股已有不同層次資料，初始台企銀成本與利益迴避個案結論仍須補原件。",
       "unknowns": [
-        "歷史任職資料、投資契約及審議決議、SIIR 申請與結案原件尚待取得。",
-        "未取得蘇巧慧指示投資或補助的直接證據；未取得告發後起訴、不起訴或裁判原文。"
+        "未取得台企銀創投初始2,500萬元投資決議/契約；不可標為已由銀行原件核實該成本。",
+        "未取得蘇巧純歷史完整任職/股權簿；CEO與COO新聞混用，不採CEO為核實職稱。",
+        "尚未取得10/21臨時提案正式通過原文、當日完整質詢核音、或本案已完成公開審計報告。",
+        "沒找到蘇指示投資/補助的直接證據；未取得告發後起訴、不起訴或裁判原文。"
       ],
       "sources": [
         {
-          "label": "民眾黨：2026 年 9 月告發聲明",
+          "label": "民眾黨指胞妹未利益迴避 蘇巧慧：她靠專業發光發熱",
+          "url": "https://www.cna.com.tw/news/aipl/202605260106.aspx",
+          "type": "本人受訪及具名指控報導"
+        },
+        {
+          "label": "民眾黨議員參選人質疑補助未依法申報 蘇巧慧：不怕檢驗",
+          "url": "https://news.cts.com.tw/cts/politics/202606/202606043040049.html",
+          "type": "新聞影片出版者文字逐字引述"
+        },
+        {
+          "label": "審計部要查曠世智能 蘇巧慧：合法的事情不怕查",
+          "url": "https://udn.com/news/story/124652/9829362",
+          "type": "本人受訪報導"
+        },
+        {
+          "label": "藍委控胞妹獲投資案 蘇巧慧：對手不要我民調領先就炒作舊案",
+          "url": "https://news.tvbs.com.tw/politics/4039408",
+          "type": "本人受訪報導"
+        },
+        {
+          "label": "藍質疑妹妹涉特權投資 蘇巧慧競辦：根本是雙標選舉抹黑",
+          "url": "https://www.cna.com.tw/news/aipl/202610140106.aspx",
+          "type": "競辦發言人聲明與國民黨團指控報導"
+        },
+        {
+          "label": "國發基金投資曠世智能股份有限公司說明",
+          "url": "https://www.ndc.gov.tw/News_Content.aspx?n=B3166DEAC8BA29A7&s=19EBC50B6600CD32",
+          "type": "國發會／國發基金官方機關立場"
+        },
+        {
+          "label": "行政院國家發展基金114年第4季季報",
+          "url": "https://ws.ndc.gov.tw/001/administrator/32/relfile/7031/39719/72ed149f-9166-47fd-92ec-b3364d6703a7.pdf",
+          "type": "國發基金官方財務業務季報PDF"
+        },
+        {
+          "label": "【臺灣新創獲投/2023.01~02】近期獲投的臺灣新創亮點案件",
+          "url": "https://findit.sme.gov.tw/Res/2227",
+          "type": "中小及新創企業署FINDIT平台當時研究彙整"
+        },
+        {
+          "label": "臺灣中小企業銀行114年第4季重要財務業務資訊",
+          "url": "https://www.tbb.com.tw/zh-tw/-/media/tbb/files/zh-tw/about/legal-disclaimers/financial-information/overview/114y-4s.pdf?hash=D44D771EF34BC117BEF8D28C525AE1EC&sc_lang=zh-tw",
+          "type": "銀行本人財務公開資料PDF"
+        },
+        {
+          "label": "民眾黨團質疑曠世智能補助案 經部：均依程序辦理",
+          "url": "https://www.cna.com.tw/news/aipl/202605260258.aspx",
+          "type": "經濟部回應與指控報導"
+        },
+        {
+          "label": "經濟部商業發展署113年度截至第3季補（捐）助經費彙總表",
+          "url": "https://ppg.ly.gov.tw/ppg/download/agenda1/02/agendaAnnex/11/02/12/110212931.pdf",
+          "type": "立法院所附經濟部官方補助表PDF"
+        },
+        {
+          "label": "曠世智能投資案惹議！審計長陳瑞敏：半個月內提初步結果",
+          "url": "https://www.taisounds.com/news/content/75/295319",
+          "type": "10/21財委會現場質詢報導"
+        },
+        {
+          "label": "第3次全體委員會議（115年10月19日、21日）",
+          "url": "https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=56731&pid=266497",
+          "type": "立法院財委會官方開會通知"
+        },
+        {
+          "label": "公司法第8條",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0080001&flno=8",
+          "type": "法務部全國法規資料庫現行法條"
+        },
+        {
+          "label": "曠世智能股份有限公司商工登記公示查詢",
+          "url": "https://findbiz.nat.gov.tw/fts/company/55860334",
+          "type": "經濟部官方公司公示入口"
+        },
+        {
+          "label": "蘇巧慧家族非法煉金術，北檢還不查？",
           "url": "https://www.tpp.org.tw/newsdetail/4830",
           "type": "指控方原始聲明"
+        }
+      ]
+    },
+    {
+      "id": "food-oil-2026",
+      "featured": false,
+      "category": "食安監督與責任",
+      "date": "2026-07-03／07-08至07-22／07-27調查結果",
+      "kicker": "食安問責 ／ 分工說法與後續調查",
+      "claimType": "本人受訪、競辦代答、具名批評與官方調查",
+      "title": "她先說製程出問題，後續調查顯示了什麼？",
+      "question": "製程歸因是否太早？與涉案業者同台之後，她如何要求公布流向及追究責任？",
+      "quote": {
+        "text": "在製程出了問題",
+        "speaker": "蘇巧慧",
+        "sourceType": "2026-07-09本人受訪，媒體歸述；原聲待核",
+        "url": "https://news.tvbs.com.tw/politics/3252678",
+        "date": "2026-07-09",
+        "audioVerified": false,
+        "locator": null
+      },
+      "criticism": {
+        "by": "郭音蘭（李四川競辦）",
+        "text": "質疑7/3寵物展同台時沒有追問油品流向與中央責任。這是對手對監督表現的批評；同台照片不能證明蘇與洪有私下默契或參與違法。",
+        "url": "https://newtalk.tw/news/view/2026-07-14/1047095"
+      },
+      "record": {
+        "summary": "官方確有7/3寵物展及蘇出席紀錄；媒體照片可核同台。7/27第三方專家報告將原料風險、製程參數異常未矯正、危害管理及抽驗不足串在一起，不能簡化成單一製程原因。",
+        "items": [
+          {
+            "label": "公開時間線",
+            "text": "臺中官方7/1已公布6/30獲報及稽查。7/8和7/9有蘇受訪紀錄，因此不能概括寫成連續21天完全沒發聲。",
+            "url": "https://www.fda.gov.tw/tc/csmnewsContent.aspx?id=t634380&mid=267"
+          },
+          {
+            "label": "7/3活動性質",
+            "text": "總統府確認寵物用品展及蘇出席；該紀錄主要為總統致詞，不是蘇全場逐字稿，無法用它證明她整場隻字未提。",
+            "url": "https://www.president.gov.tw/News/40166"
+          },
+          {
+            "label": "7/27完成原因調查",
+            "text": "報告查見特定來源/船批原料風險及多項管理缺失；未找到設備設計直接生成BaP之證據，不等於製程管理沒有缺失。",
+            "url": "https://www.fda.gov.tw/TC/includes/GetFile.ashx?id=f639209533902835574&iid=13727&type=3"
+          }
+        ]
+      },
+      "response": {
+        "text": "本人7/8稱中央地方各負責並一起做好，7/9區分2014飼料油混充與此次事件。另7/15是吳思萱代競辦回應，同台貴賓由寵物公會安排；不能把代答冒充本人原話。",
+        "url": "https://news.tvbs.com.tw/politics/3257812"
+      },
+      "assessment": "可具體追問她在調查完成前為何先作製程歸因，以及後續要求中央檢討的紀錄。官方後續多因調查應與她早期說法並列，但不足以推定她明知真相卻護航。",
+      "unknowns": [
+        "未核聽新聞片段句內秒數，未取得蘇7/3完整致詞與受訪。",
+        "沒有證據可由同台合照推論私下關係、默契、關說或刑事責任。",
+        "本輪未查完整公報/提案清單，不能斷言她此後從未追究中央。"
+      ],
+      "sources": [
+        {
+          "label": "被質疑油品議題沒發聲 蘇巧慧：中央地方一起把事做好",
+          "url": "https://udn.com/news/story/124652/9614652",
+          "type": "當時受訪報導"
         },
         {
-          "label": "中央社：投資及補助爭議",
-          "url": "https://www.cna.com.tw/news/aipl/202605260258.aspx",
-          "type": "指控與機關回應"
+          "label": "致癌油蘇巧慧稱中央地方各自負責 川辦酸「雙標」",
+          "url": "https://news.cts.com.tw/cts/politics/202607/202607093053664.html",
+          "type": "新聞影片出版者文字逐字引述"
         },
         {
-          "label": "太報：國發基金六點說明",
-          "url": "https://www.taisounds.com/news/content/71/259023",
-          "type": "機關聲明媒體刊載"
+          "label": "被酸「你爸當年不是這樣說」！蘇巧慧回擊毒油案：兩件事不同",
+          "url": "https://news.tvbs.com.tw/politics/3252678",
+          "type": "當時受訪報導"
         },
         {
-          "label": "中央社：告發與經部回應",
-          "url": "https://www.cna.com.tw/news/asoc/202609070246.aspx",
-          "type": "告發行動及回應報導"
+          "label": "同台毒油關鍵人！李四川辦批蘇巧慧「裝沒事」 蘇營反擊：你也在",
+          "url": "https://news.tvbs.com.tw/politics/3257812",
+          "type": "雙方競辦回應報導"
+        },
+        {
+          "label": "與洪堯昆合照還掛臉書上 李四川辦轟蘇巧慧「全程裝沒事」",
+          "url": "https://newtalk.tw/news/view/2026-07-14/1047095",
+          "type": "具名競選對手批評及照片報導"
+        },
+        {
+          "label": "台北寵物用品展開幕 總統強調政府將支持寵物用品產業發展並建構完整產業鏈",
+          "url": "https://www.president.gov.tw/News/40166",
+          "type": "總統府活動紀錄"
+        },
+        {
+          "label": "中聯大豆沙拉油苯駢芘超標 臺中食安處立即啟動稽查與追查流向",
+          "url": "https://www.fda.gov.tw/tc/csmnewsContent.aspx?id=t634380&mid=267",
+          "type": "食藥署轉載臺中市政府衛生局官方新聞"
+        },
+        {
+          "label": "中聯油脂股份有限公司大豆油苯(a)駢芘超標事件調查報告",
+          "url": "https://www.fda.gov.tw/TC/includes/GetFile.ashx?id=f639209533902835574&iid=13727&type=3",
+          "type": "食藥署公開第三方專家調查報告PDF"
         }
       ]
     }
-  ]
+  ],
+  "revision": "v7"
 }
