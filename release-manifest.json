@@ -1,11 +1,11 @@
 {
-  "release": "huiao-new-taipei-v6",
+  "release": "huiao-new-taipei-v7",
   "siteCanonical": "https://huiao-new-taipei.github.io/",
   "releaseDate": "2026-10-22",
-  "sourceFileCount": 35,
-  "payloadFileCountExcludingManifest": 37,
+  "sourceFileCount": 40,
+  "payloadFileCountExcludingManifest": 42,
   "manifestSelfExcluded": true,
-  "previousRelease": "huiao-new-taipei-v5",
+  "previousRelease": "huiao-new-taipei-v6",
   "deploymentStatus": "Verification receipt is private and records the exact deployed revision.",
   "counts": {
     "primary": 39,
@@ -13,10 +13,11 @@
     "cosign": 571,
     "unique": 640,
     "policyPages": 14,
-    "caseCount": 10,
+    "caseCount": 11,
     "caseIds": [
       "campaign-design-expense-2020-2023",
       "children-colleagues-20240528",
+      "food-oil-2026",
       "guan-min-2018-2026",
       "kindergarten-2023-2026",
       "ntsec-c10725-2018-2020",
@@ -27,12 +28,17 @@
       "zhang-shujuan-2022-2026"
     ],
     "archivedQuotes": 9,
-    "curatedQuoteCount": 3,
+    "curatedQuoteCount": 21,
     "quizState": "ready",
     "sourcePin": "41364a48ca9e3762acead265c773cda59df71ff472bd4c670aa62a8421ca335d",
-    "quizSourcePath": "/data/quiz-quotes-v6.json",
-    "quizSourcePin": "69c06e9cb25278621dbaeb302f4ef6684ec5af997d10a7b84412bfd48f438df9",
-    "quizEventCount": 3
+    "quizSourcePath": "/data/quote-library-v7.json",
+    "quizSourcePin": "1899f96af7ff974887b52c0ea01a4e2654f733582a8589b1422e366a6ea49f1b",
+    "quizEventCount": 13,
+    "quoteLibraryCount": 34,
+    "ownQuoteCount": 32,
+    "officeReplyCount": 2,
+    "quoteLibraryEventCount": 21,
+    "ownQuoteEventCount": 19
   },
   "files": [
     {
@@ -97,8 +103,8 @@
     },
     {
       "path": "data/accountability.json",
-      "bytes": 34303,
-      "sha256": "e1099ddd304bc34820e382030edd8d9d430dee9de36162e01acb25fa9c1cd2c6"
+      "bytes": 51691,
+      "sha256": "c7a32f524445214b91cb2c20dee824ffdabd45119f0e6ea6d4df1350e5b1f5ee"
     },
     {
       "path": "data/analysis.json",
@@ -117,13 +123,13 @@
     },
     {
       "path": "data/curation.json",
-      "bytes": 1311,
-      "sha256": "3594962bda8cdb867a47700a3c6eb277d333bc02df6c39a70b27c274b182859f"
+      "bytes": 2161,
+      "sha256": "dfb389ebc0ff1c3473b7c3ac73559117b02d41086f2e33e14846df5ca2787db4"
     },
     {
       "path": "data/game-catalog.json",
-      "bytes": 2085,
-      "sha256": "28d1ccf27623d625f1500fbb46095c12d38d1cd06ea1deed6e36db9aead721df"
+      "bytes": 2133,
+      "sha256": "514b0920130826825feb3d0015f937cd0ae50b7bc3907e7636436defa9439a4f"
     },
     {
       "path": "data/policy.json",
@@ -134,6 +140,11 @@
       "path": "data/quiz-quotes-v6.json",
       "bytes": 7670,
       "sha256": "69c06e9cb25278621dbaeb302f4ef6684ec5af997d10a7b84412bfd48f438df9"
+    },
+    {
+      "path": "data/quote-library-v7.json",
+      "bytes": 79073,
+      "sha256": "1899f96af7ff974887b52c0ea01a4e2654f733582a8589b1422e366a6ea49f1b"
     },
     {
       "path": "data/quotes.json",
@@ -154,6 +165,16 @@
       "path": "downloads/obsidian-vault.zip",
       "bytes": 10010093,
       "sha256": "a3087c45bc7db50b16a6bb78f48148ab3b0be6b66ea222364ece3762eb714857"
+    },
+    {
+      "path": "downloads/quote-library-v7.csv",
+      "bytes": 25163,
+      "sha256": "3f57e91e71b550de8812b1b3b20cce3b75714774b831761bc4416c0513c2c17b"
+    },
+    {
+      "path": "downloads/quote-library-v7.zip",
+      "bytes": 43242,
+      "sha256": "605e39a6ce418a2776600c00b9db9ea50f7b5f43af9606c99a133a6e4401ad70"
     },
     {
       "path": "game/hub.css",
@@ -177,13 +198,13 @@
     },
     {
       "path": "game/quiz-engine.js",
-      "bytes": 28465,
-      "sha256": "75f937d6518a8d2af11a1db241b7412a8ae3ef0b0f88e8127108aeff828568e9"
+      "bytes": 28912,
+      "sha256": "a6e6af74c3054c091a39a15e14d72776558c2dd015e3a63034b32c27735747f2"
     },
     {
       "path": "game/quiz/index.html",
-      "bytes": 5642,
-      "sha256": "fea0fc64fe75ba4c713500fec78e87ea9e5b89bc0804876b765e8cea1422e920"
+      "bytes": 5652,
+      "sha256": "1335f4398c8748dd84fbff6b79ff987af6903dc229089b4926d747dc67bffa0a"
     },
     {
       "path": "game/swipe-ui.css",
@@ -192,8 +213,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 16013,
-      "sha256": "91b2e4457582cf11cb29df7fb82611151887d9f09bcec197e5995ca5ca8548ed"
+      "bytes": 17518,
+      "sha256": "294407d724b5b7d69f41feca7cdcb13eb3445af91859088b3912befc4abbfc18"
     },
     {
       "path": "observatory.css",
@@ -211,6 +232,16 @@
       "sha256": "0d404c536bf86e3fa900937253b4974ef9490094218831ca9494a426d9d2ee27"
     },
     {
+      "path": "quote-library.css",
+      "bytes": 2789,
+      "sha256": "39fa1c01fc2f9bd7c34a570fe93e6adefed2f5494ae16896f961782b22e9ff9c"
+    },
+    {
+      "path": "quote-library.js",
+      "bytes": 7368,
+      "sha256": "679568b8550e74a732674cd4d6bc32405035dce66a7a1d542a622bf5c57efa2a"
+    },
+    {
       "path": "review/index.html",
       "bytes": 1039,
       "sha256": "440bda61a5c3d4f2e986bc8a2da09305547551215dcd11aa1c4a7ac67182b720"
@@ -221,5 +252,5 @@
       "sha256": "93cdcf71697465f79d3fed3eca833bff8ea0422a8983a87fb5d70b0d9357c93c"
     }
   ],
-  "revision": "v6"
+  "revision": "v7"
 }
