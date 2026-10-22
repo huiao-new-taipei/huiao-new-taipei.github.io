@@ -1,11 +1,11 @@
 {
-  "release": "huiao-new-taipei-v7",
+  "release": "huiao-new-taipei-v8",
   "siteCanonical": "https://huiao-new-taipei.github.io/",
   "releaseDate": "2026-10-22",
   "sourceFileCount": 40,
   "payloadFileCountExcludingManifest": 42,
   "manifestSelfExcluded": true,
-  "previousRelease": "huiao-new-taipei-v6",
+  "previousRelease": "huiao-new-taipei-v7",
   "deploymentStatus": "Verification receipt is private and records the exact deployed revision.",
   "counts": {
     "primary": 39,
@@ -214,7 +214,7 @@
     {
       "path": "index.html",
       "bytes": 17518,
-      "sha256": "294407d724b5b7d69f41feca7cdcb13eb3445af91859088b3912befc4abbfc18"
+      "sha256": "c63ff3981bd96db0682a6f208608d2a37a0e543090139d95b65c29b93196bdc3"
     },
     {
       "path": "observatory.css",
@@ -252,5 +252,5 @@
       "sha256": "93cdcf71697465f79d3fed3eca833bff8ea0422a8983a87fb5d70b0d9357c93c"
     }
   ],
-  "revision": "v7"
+  "revision": "v8"
 }
