@@ -14,9 +14,10 @@
   <meta property="og:url" content="https://huiao-new-taipei.github.io/contribute/">
   <meta property="og:image" content="https://huiao-new-taipei.github.io/assets/og-records.png">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="/contribute/contribute.css?v=17">
+  <link rel="stylesheet" href="/contribute/contribute.css?v=34">
   <script src="/contribute/core.js?v=17" defer></script>
   <script src="/contribute/form.js?v=17" defer></script>
+  <script src="/contribute/agent-help.js?v=34" defer></script>
 </head>
 <body data-subject-id="su-chiao-hui">
 <a class="skip" href="#contribution">直接填寫投稿</a>
@@ -48,6 +49,19 @@
         <div class="honey" aria-hidden="true"><label for="quote-website">此欄請留空</label><input id="quote-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
         <div class="form-actions"><button class="submit-button" type="submit" disabled>送出原話線索 <span aria-hidden="true">↗</span></button><button type="button" data-action="save">存成這台瀏覽器的草稿</button><button type="button" data-action="clear">清除本機草稿</button></div><p class="draft-status hint" role="status">草稿不會自動保存。使用公用電腦時，請勿保存。</p><div class="submission-status" role="status" tabindex="-1" hidden></div>
       </form>
+      <details class="agent-helper" data-agent-kind="quote">
+        <summary><span>請你的 Agent 幫忙</span><small>複製提示詞，先整理，再由你確認</small></summary>
+        <div class="agent-helper-content"><label for="agent-quote-prompt">貼給他：</label>
+          <textarea id="agent-quote-prompt" class="agent-helper-prompt" readonly rows="6" spellcheck="false" aria-describedby="agent-quote-hint">請幫我整理蘇巧慧值得核對的本人原話，準備投稿到國會紀錄觀測。
+先看原話檔案：https://huiao-new-taipei.github.io/#statements。同一事件只整理一筆，避免重複；無法確認是否已收錄時請註明。
+優先找本人完整文章、完整影片或官方逐字稿。請列出：逐字原句、發言／發表日期、場合與前後文、完整公開 HTTPS 來源；影片附起訖時間，不能確認就寫「待查」，不要猜。
+分成表單欄位：原話（600 字內）、主要來源、日期、時間點／位置、前後文、補充。評論與推論另列，不得捏造、拼接，或把他人的引述當作已核實的本人原話。
+可幫我填入：https://huiao-new-taipei.github.io/contribute/?type=quote&amp;subject=su-chiao-hui，先停在草稿讓我確認。未獲我明確授權，不要勾選同意或送出。
+聯絡方式可不填；若我提供，只填私人聯絡欄，勿放進原話、補充或公開署名。</textarea>
+          <div class="agent-helper-actions"><button type="button" data-copy-agent-prompt disabled>複製提示詞</button><span class="agent-helper-status" role="status" aria-live="polite"></span></div>
+          <p id="agent-quote-hint">只複製這段提示詞，不會帶走你已填的內容，也不會送出投稿。</p>
+        </div>
+      </details>
     </div>
     <div id="panel-game" role="tabpanel" aria-labelledby="tab-game" hidden>
       <form id="game-form" data-kind="game" novalidate>
@@ -74,6 +88,19 @@
         <div class="honey" aria-hidden="true"><label for="game-website">此欄請留空</label><input id="game-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
         <div class="form-actions"><button class="submit-button" type="submit" disabled>送出遊戲投稿 <span aria-hidden="true">↗</span></button><button type="button" data-action="save">存成這台瀏覽器的草稿</button><button type="button" data-action="clear">清除本機草稿</button></div><p class="draft-status hint" role="status">草稿不會自動保存。使用公用電腦時，請勿保存。</p><div class="submission-status" role="status" tabindex="-1" hidden></div>
       </form>
+      <details class="agent-helper" data-agent-kind="game">
+        <summary><span>請你的 Agent 幫忙</span><small>複製提示詞，先整理，再由你確認</small></summary>
+        <div class="agent-helper-content"><label for="agent-game-prompt">貼給他：</label>
+          <textarea id="agent-game-prompt" class="agent-helper-prompt" readonly rows="6" spellcheck="false" aria-describedby="agent-game-hint">請幫我為蘇巧慧準備一份網頁遊戲投稿。先確認我的玩法與素材，不得替真實人物編造發言。
+已有作品：整理名稱（100 字內）、簡介與操作（1200 字內）、免登入可讀的公開 GitHub 專案首頁；若有，再補試玩網址、完整 commit SHA、程式／素材授權與外部服務／資料處理說明。引用現實言論時，附完整來源、日期、影片時間點與前後文。
+作品表單：https://huiao-new-taipei.github.io/contribute/?type=game&amp;subject=su-chiao-hui
+只有點子：不需要假造 repo，把玩法、操作、計分、裝置與來源整理為 4000 字內 prompt，填好點子表單：https://puwa.taipei/contribute/?type=idea&amp;subject=su-chiao-hui
+先讓我確認草稿；未獲我明確授權，不要公開 repo、部署、勾選同意或送出。聯絡方式可不填；若我提供，只填私人聯絡欄，不要混入公開內容。
+投稿先經人工審核，點子不保證製作，作品也不會自動上架。</textarea>
+          <div class="agent-helper-actions"><button type="button" data-copy-agent-prompt disabled>複製提示詞</button><span class="agent-helper-status" role="status" aria-live="polite"></span></div>
+          <p id="agent-game-hint">只複製這段提示詞，不會帶走你已填的內容，也不會送出投稿。</p>
+        </div>
+      </details>
     </div>
   </section>
   <section class="privacy-note" aria-labelledby="privacy-heading"><p class="eyebrow">YOUR DRAFT, YOUR CHOICE</p><h2 id="privacy-heading">按下送出之前，<br>內容都留在這一頁。</h2><div><p>「存成草稿」會把內容保存在目前這台裝置的瀏覽器，其他使用同一瀏覽器的人可能看得到。聯絡方式與同意勾選不會存入草稿；清除草稿不會撤回已送出的投稿。本站不提供公開查稿，請保存收件編號。送出時，連線服務仍可能保留一般運作紀錄。</p><details class="privacy-terms"><summary>投稿與私人聯絡資料，會保留多久？</summary><p>未發布的投稿會在最後更新滿 90 天後開始分批清理，完成清理前仍可能保留。私人聯絡資料在收件 90 天後不再顯示。到期資料會在後續服務操作中分批清理，不保證在到期當下刪除。已發布遊戲的公開快照可繼續列在遊戲庫；公開快照不包含私人聯絡方式。</p><p>本機草稿由你自行清除，不受上述服務保留期限控制。請勿在投稿內容中夾帶私人聯絡資料，應填在專用聯絡欄位。</p></details></div></section>
