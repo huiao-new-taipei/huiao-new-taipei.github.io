@@ -1,11 +1,11 @@
 {
-  "release": "huiao-new-taipei-v4",
+  "release": "huiao-new-taipei-v5",
   "siteCanonical": "https://huiao-new-taipei.github.io/",
   "releaseDate": "2026-10-22",
-  "sourceFileCount": 32,
-  "payloadFileCountExcludingManifest": 34,
+  "sourceFileCount": 34,
+  "payloadFileCountExcludingManifest": 36,
   "manifestSelfExcluded": true,
-  "previousRelease": "huiao-new-taipei-v3",
+  "previousRelease": "huiao-new-taipei-v4",
   "deploymentStatus": "Verification receipt is private and records the exact deployed revision.",
   "counts": {
     "primary": 39,
@@ -43,6 +43,11 @@
       "sha256": "fc8c2d64fa61fc168bf8b6a163285880cb0d766d0fa203adb8a86a8c62f2728e"
     },
     {
+      "path": "analytics.js",
+      "bytes": 5687,
+      "sha256": "4d149f9458960bfb001f3bd8e9dcf78cb5636e4f0e87749291864b38cc3e623d"
+    },
+    {
       "path": "assets/og-game-hub.png",
       "bytes": 48597,
       "sha256": "5a955958012c5778eef7751f4b040c8eb79207a5f32adbed3046f42e2adbbf86"
@@ -58,14 +63,19 @@
       "sha256": "80ca577b7d35b07a741bcff071ea2b207d2f0dda4a9458b46d605d25adb7e502"
     },
     {
+      "path": "contribute/agent-help.js",
+      "bytes": 5526,
+      "sha256": "8a04653af6a6c96136e4c6d340b50ab50827e12dc4aa82422ec381610ff8d559"
+    },
+    {
       "path": "contribute/config.json",
       "bytes": 247,
       "sha256": "d674fd74b032f8f2110b8c817ed7205914bcee64ee1fd20c0708b927eede12bb"
     },
     {
       "path": "contribute/contribute.css",
-      "bytes": 12310,
-      "sha256": "2cd6b0d2ead68ee5b02a6a7009fc4cde77ab2fa5cf6aaf0ad2be3e56b7b34027"
+      "bytes": 13925,
+      "sha256": "2c045504b66385095a6a8de3e25d716346dc1cf8c2aeef0c191fb2bd6b645d03"
     },
     {
       "path": "contribute/core.js",
@@ -79,8 +89,8 @@
     },
     {
       "path": "contribute/index.html",
-      "bytes": 19804,
-      "sha256": "9ab9b96c67a0397541c52c31bda074b4e74eb962704e94f4e684f5e94d803a40"
+      "bytes": 23485,
+      "sha256": "5f580c212c94a0b23f76525e5294c8e137a6ed225766098075a5cae7a91c5e8f"
     },
     {
       "path": "data/accountability.json",
@@ -144,8 +154,8 @@
     },
     {
       "path": "game/index.html",
-      "bytes": 5433,
-      "sha256": "53709bcadb8d66f4be8ebe431ed8d049246cc8878e2431406533f9fd688974b0"
+      "bytes": 5553,
+      "sha256": "01d1cb67d418275ceca36246ef14759fd64a916900f64091b6b32ece491063d8"
     },
     {
       "path": "game/library-core.js",
@@ -164,8 +174,8 @@
     },
     {
       "path": "game/quiz/index.html",
-      "bytes": 5355,
-      "sha256": "59754e746db7edb14eeef0d9a9c528dbe2383476eb7c248d5b76751b2bb68532"
+      "bytes": 5476,
+      "sha256": "3a21d69d58dca8a4a49c475cd0e39333ac8d85ca1d1b700bcc97d78546cce337"
     },
     {
       "path": "game/swipe-ui.css",
@@ -174,8 +184,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 15643,
-      "sha256": "b2da417068b6b126ae288a1fb42382ce81b255dd8eb6d0075f0cc25e60de33bf"
+      "bytes": 15983,
+      "sha256": "b17d70bace689014719c93a1e1ad586fee1526ae1887098983665a2876faf579"
     },
     {
       "path": "observatory.css",
@@ -203,5 +213,5 @@
       "sha256": "93cdcf71697465f79d3fed3eca833bff8ea0422a8983a87fb5d70b0d9357c93c"
     }
   ],
-  "revision": "v4"
+  "revision": "v5"
 }
