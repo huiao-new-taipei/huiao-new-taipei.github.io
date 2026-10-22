@@ -2,6 +2,7 @@
 (() => {
   'use strict';
   const AUTO_DELAY = 1600;
+  const QUIZ_SOURCE_PATH = '/data/quiz-quotes-v6.json';
   function quizProfile(options = {}, body = {}) {
     const speakers = {'shen-pao-yang':'沈伯洋','su-chiao-hui':'蘇巧慧'};
     const subjectId = Object.hasOwn(speakers,options.subjectId || body.subjectId) ? options.subjectId || body.subjectId : null;
@@ -12,10 +13,21 @@
   }
 
   function selectCuratedQuotes(data,curation,sourceSha256,subjectId) {
-    if(subjectId!=='su-chiao-hui'||data?.version!==curation?.sourceVersion||curation?.subjectId!==subjectId||curation?.version!=='su-curation-v3'||curation?.sourceSha256!==sourceSha256||curation?.quizState!=='ready'||!Array.isArray(curation?.curatedIds)||!Array.isArray(data?.quotes))return [];
-    if(new Set(curation.curatedIds).size!==curation.curatedIds.length)return [];
+    if(subjectId!=='su-chiao-hui'||data?.subjectId!==subjectId||data?.version!=='su-quiz-v6'||curation?.sourceVersion!==data.version||curation?.subjectId!==subjectId||curation?.version!=='su-curation-v6'||curation?.sourcePath!==QUIZ_SOURCE_PATH||!/^[a-f0-9]{64}$/.test(sourceSha256)||curation?.sourceSha256!==sourceSha256||curation?.quizState!=='ready'||!Array.isArray(curation?.curatedIds)||!curation.curatedIds.length||!Array.isArray(data?.quotes))return [];
+    if(curation.curatedIds.some(id=>typeof id!=='string')||new Set(curation.curatedIds).size!==curation.curatedIds.length||data.quotes.some(q=>!q||typeof q.id!=='string')||new Set(data.quotes.map(q=>q.id)).size!==data.quotes.length)return [];
     const selected=curation.curatedIds.map(id=>data.quotes.find(q=>q.id===id));
     return selected.every(q=>q&&q.speaker==='蘇巧慧'&&q.quizEligible===true&&q.useInQuiz===true)?selected:[];
+  }
+  function eligibleQuotesForPeriod(quotes,profile,period='all') {
+    if(!profile||!Array.isArray(quotes))return [];
+    const rows=quotes.filter(q=>q&&q.speaker===profile.speaker&&q.quizEligible===true&&q.useInQuiz===true);
+    if(!profile.nominationDate||period==='all')return rows;
+    if(!['pre','post'].includes(period))return [];
+    return rows.filter(q=>{
+      const date=q.eventDate||q.date;
+      if(q.datePrecision==='unknown'||typeof date!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(date)||!Number.isFinite(Date.parse(date))||new Date(date).toISOString().slice(0,10)!==date)return false;
+      return period==='pre'?date<profile.nominationDate:date>=profile.nominationDate;
+    });
   }
   function createRoundController(options = {}) {
     const schedule = options.schedule || setTimeout, cancel = options.cancel || clearTimeout;
@@ -54,7 +66,7 @@
   }
 
   // Allows focused Node tests of the actual timer/state logic, without a browser or DOM emulator.
-  if (typeof module === 'object' && module.exports) module.exports = {createRoundController, AUTO_DELAY,quizProfile,selectCuratedQuotes};
+  if (typeof module === 'object' && module.exports) module.exports = {createRoundController, AUTO_DELAY,quizProfile,selectCuratedQuotes,eligibleQuotesForPeriod,QUIZ_SOURCE_PATH};
   if (typeof window === 'undefined' || typeof document === 'undefined') return;
 
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -69,7 +81,7 @@
     const play = card.closest('#play'), game = card.closest('.swipe-game');
     const text = (id, value) => { if ($(id)) $(id).textContent = value; };
     const reduced = matchMedia('(prefers-reduced-motion: reduce)');
-    const state = {quotes: Array.isArray(options.quotes) ? options.quotes : [], period: $('game-period')?.value || 'pre', seen: new Set(), drag: null, newCount: 0};
+    const state = {quotes: Array.isArray(options.quotes) ? options.quotes : [], period: $('game-period')?.value || 'all', seen: new Set(), drag: null, newCount: 0};
     if (!profile.nominationDate) { state.period = 'all'; if ($('game-period')) { $('game-period').value = 'all'; $('game-period').disabled = true; } }
     function mergeSeen(raw) {
       try { const stored = JSON.parse(raw ?? localStorage.getItem(seenKey) ?? '[]'); if (Array.isArray(stored)) for (const id of stored) if (typeof id === 'string') state.seen.add(id); } catch {}
@@ -92,7 +104,7 @@
     $('quiz-no').innerHTML = `<span aria-hidden="true">×</span><b>不是${pronoun}</b><small>NO · ←</small>`;
     $('quiz-yes').innerHTML = `<span aria-hidden="true">✓</span><b>是${pronoun}</b><small>YES · →</small>`;
     $('quiz-no').setAttribute('aria-label', '不是' + speaker + '的原話，向左選'); $('quiz-yes').setAttribute('aria-label', '是' + speaker + '的原話，向右選');
-    const pool = () => state.quotes.filter(q => q.speaker===speaker&&q.quizEligible===true&&q.useInQuiz===true).filter(q => { const date = String(q.eventDate || q.date).slice(0,10); return !profile.nominationDate || state.period === 'all' || (state.period === 'pre' ? date < profile.nominationDate : date >= profile.nominationDate); });
+    const pool = () => eligibleQuotesForPeriod(state.quotes,profile,state.period);
     const announce = message => { const live = $('announcement') || document.getElementById('announcement'); if (live) live.textContent = message; };
     function info() {
       if(options.curationPending){
@@ -107,7 +119,7 @@
       text('quiz-pool-count', rows.length); text('quiz-seen-count', seen + ' / ' + rows.length);
       text('game-period-note', `${period}：${rows.length} 段、${new Set(rows.map(q => q.eventId || q.id)).size} 個事件／文章。${profile.nominationDate ? '正式提名切點 ' + profile.nominationDate + '。' : '尚未設定可核對的正式提名切點，目前使用所有已收錄時期。'}`);
       const length = controller.snapshot().round.length;
-      text('quiz-round-note', state.newCount ? `本輪 ${length} 題，${state.newCount} 題尚未看過。同一輪不重複事件；換時期會重開一輪。` : '本期都看過了？這輪換個順序，盡量避開上一輪。');
+      text('quiz-round-note', `本輪 ${length} 題，同一事件只出一題。此時期共有 ${rows.length} 則；再玩只重新排序，換時期會重開一輪。`);
       text('quote-selection', `本範圍精選 ${rows.length} 段本人公開言論／文章，答案均為「是」；這是有意挑選的原話遊戲，不加入虛構的「否」題。媒體引述、官方逐字稿與書面文章逐題標示；最後可看本輪完整來源。`);
     }
     function clearDrag() { state.drag = null; card.classList.remove('is-dragging','is-left','is-right'); card.style.transform = ''; card.style.setProperty('--swipe-yes','0'); card.style.setProperty('--swipe-no','0'); }
@@ -116,6 +128,9 @@
       if (primary) links.push(`<a href="${esc(primary)}" target="_blank" rel="noopener noreferrer">讀原文與上下文 ↗</a>`);
       if (video) links.push(`<a href="${esc(video)}" target="_blank" rel="noopener noreferrer">${esc(q.videoLabel || '看官方發言影片')} ↗</a>`);
       if (full && full !== video) links.push(`<a href="${esc(full)}" target="_blank" rel="noopener noreferrer">${esc(q.fullVideoLabel || '看完整會議影片')} ↗</a>`);
+      for(const [index,value] of (Array.isArray(q.additionalSourceURLs)?q.additionalSourceURLs:[]).slice(0,3).entries()){
+        const url=safeUrl(value);if(url&&![primary,video,full].includes(url))links.push(`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">其他核對來源 ${index+1} ↗</a>`);
+      }
       const locator = q.evidenceLocator || q.timecode || '', limit = q.inferenceLimit || q.editorialLimit || q.cannotInfer || '';
       return `<blockquote>「${esc(q.quote)}」</blockquote><p>${esc(q.date)} · ${esc(q.medium === 'written' ? '書面文章' : '口語發言')} · ${esc(q.venue || '公開發言')}</p><p>${esc(q.context || '')}</p><p class="quiz-source-type">${esc(q.sourceType || '來源類型請見原始連結')}</p>${locator ? `<p class="quiz-locator"><b>影片／原文位置</b><br>${esc(locator)}</p>` : ''}<div class="quiz-source-actions">${links.join('')}</div>${limit ? `<p class="quiz-inference-limit"><b>證據範圍：</b>${esc(limit)}</p>` : ''}`;
     }
@@ -181,7 +196,7 @@
       }
       const q = s.question; remember(q.id); card.dataset.questionId = q.id; card.dataset.eventId = q.eventId || q.id;
       card.setAttribute('aria-describedby','quiz-meta quiz-context quiz-swipe-help');
-      text('quiz-progress',`${s.index + 1} / ${s.round.length} 題`); text('quiz-meta',`${q.date} · ${q.medium === 'written' ? '書面文章' : '口語發言'}`);
+      text('quiz-progress',`${s.index + 1} / ${s.round.length} 題`); text('quiz-meta',`${q.date} · ${q.medium === 'written' ? '書面文章' : '口語發言'}${q.quoteKind ? ' · ' + q.quoteKind : ''}`);
       text('quiz-context',q.frontContext || q.context || '先憑印象回答，最後可以逐題讀原文。');
       text('quiz-question',`「${q.quote}」\n這是${speaker}${q.medium === 'written' ? '寫的' : '說的'}嗎？`); card.querySelector('.quiz-foot').textContent = `左滑不是${pronoun} ／ 右滑是${pronoun} ／ 也可用方向鍵`;
       if (reason !== 'round') { card.classList.add('quiz-question-enter'); focusQuestion(); }
@@ -232,8 +247,8 @@
   window.RecordsQuiz={mount};
 
   if(document.querySelector('[data-standalone-quiz]')) Promise.all([
-    fetch('/data/quotes.json',{cache:'no-cache'}).then(async r=>{if(!r.ok)throw new Error('source');return r.text();}),
-    fetch('/data/curation.json?v=3',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('curation');return r.json();})
+    fetch(QUIZ_SOURCE_PATH+'?v=6',{cache:'no-cache'}).then(async r=>{if(!r.ok)throw new Error('source');return r.text();}),
+    fetch('/data/curation.json?v=6',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('curation');return r.json();})
   ]).then(async([raw,curation])=>{
     const digest=[...new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(raw)))].map(x=>x.toString(16).padStart(2,'0')).join('');
     const quotes=selectCuratedQuotes(JSON.parse(raw),curation,digest,document.body.dataset.subjectId);

@@ -53,14 +53,15 @@
         "su-chiao-hui"
       ],
       "title": "這是蘇巧慧說的嗎？",
-      "summary": "精選題庫正在重新核對，暫停出題。可先查看整理進度，或在人物選單選擇其他已開放遊戲。",
+      "summary": "3則本人原話、3個事件。左右滑卡後即時揭曉，再讀原文與回應脈絡；依時期出1至3題，再玩只換順序。",
       "url": "https://huiao-new-taipei.github.io/game/quiz/",
       "tags": [
-        "題庫整理中",
-        "暫停出題",
-        "查看進度"
+        "左右滑卡",
+        "3題短回合",
+        "逐題來源"
       ],
-      "status": "paused"
+      "status": "ready",
+      "coverUrl": "https://huiao-new-taipei.github.io/assets/og-game-quiz.png"
     }
   ]
 }
