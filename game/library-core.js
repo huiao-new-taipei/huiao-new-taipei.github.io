@@ -2,10 +2,10 @@
 (function (global) {
   'use strict';
   const SUBJECTS = Object.freeze({'shen-pao-yang':'沈伯洋','su-chiao-hui':'蘇巧慧'});
-  const CENTRAL_ORIGIN = 'https://puwa-taipei.github.io', SU_ORIGIN = 'https://huiao-new-taipei.github.io';
+  const CENTRAL_ORIGIN = 'https://puwa.taipei', LEGACY_ORIGIN = 'https://puwa-taipei.github.io', SU_ORIGIN = 'https://huiao-new-taipei.github.io';
   const CATALOG_URL = CENTRAL_ORIGIN + '/data/game-catalog.json';
   const API_URL = 'https://wggebwlqsfxuwaocfpsf.supabase.co/functions/v1/intake-api';
-  const origins = new Set([CENTRAL_ORIGIN,SU_ORIGIN]);
+  const origins = new Set([CENTRAL_ORIGIN,LEGACY_ORIGIN,SU_ORIGIN]);
   const own = (obj,key) => Object.prototype.hasOwnProperty.call(obj,key);
   function subject(value) { return typeof value === 'string' && own(SUBJECTS,value) ? value : null; }
   function person(value) { return value === 'all' || value === null || value === undefined ? 'all' : subject(value); }
@@ -19,9 +19,9 @@
     try {
       const url = new URL(value);
       if (!origins.has(url.origin) || url.username || url.password || url.search || url.hash) return null;
-      if (cover ? !/^\/assets\/[a-zA-Z0-9][a-zA-Z0-9/_-]*\.(?:png|jpe?g|webp)$/.test(url.pathname) : !/^\/game\/(?:quiz|red-notes)\/$/.test(url.pathname)) return null;
+      if (cover ? !/^\/assets\/[a-zA-Z0-9][a-zA-Z0-9/_-]*\.(?:png|jpe?g|webp)$/.test(url.pathname) : !/^\/game\/(?:quiz|red-notes|dialogue)\/$/.test(url.pathname)) return null;
       // The red-note character/game remains the original Shen game on its original site.
-      if (!cover && url.pathname === '/game/red-notes/' && url.origin !== CENTRAL_ORIGIN) return null;
+      if (!cover && ['/game/red-notes/','/game/dialogue/'].includes(url.pathname) && ![CENTRAL_ORIGIN,LEGACY_ORIGIN].includes(url.origin)) return null;
       return url.href;
     } catch { return null; }
   }
@@ -31,8 +31,10 @@
     const ids = subjectIds(value.subjectIds), url = siteUrl(value.url), title = string(value.title,100), summary = string(value.summary,1200);
     if (!ids || !url || !title || !summary || !/^[a-z0-9-]{1,80}$/.test(value.id || '')) return null;
     if (new URL(url).origin === SU_ORIGIN && !ids.includes('su-chiao-hui')) return null;
-    if (new URL(url).pathname === '/game/red-notes/' && !ids.includes('shen-pao-yang')) return null;
-    return {id:value.id,subjectIds:ids,title,summary,url,coverUrl:siteUrl(value.coverUrl,{cover:true}),tags:Array.isArray(value.tags) ? value.tags.filter(tag => string(tag,30)).slice(0,4) : [],legacySubject:false};
+    if (['/game/red-notes/','/game/dialogue/'].includes(new URL(url).pathname) && !ids.includes('shen-pao-yang')) return null;
+    const status = value.status === undefined ? 'ready' : value.status;
+    if (!['ready','paused'].includes(status)) return null;
+    return {id:value.id,subjectIds:ids,title,summary,url,status,coverUrl:siteUrl(value.coverUrl,{cover:true}),tags:Array.isArray(value.tags) ? value.tags.filter(tag => string(tag,30)).slice(0,4) : [],legacySubject:false};
   }
   function catalog(value) {
     if (!value || value.schemaVersion !== 1 || !Array.isArray(value.games) || value.games.length > 100) throw new Error('invalid_catalog');

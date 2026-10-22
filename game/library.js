@@ -15,17 +15,17 @@
     return box;
   }
   function counts() {
-    const visible = C.filter(builtins,store.selected()).length, loaded = store.items().length;
-    $('library-count').textContent = `內建${catalogPhase === 'ok' ? ' ' + visible + ' 款' : catalogPhase === 'loading' ? '確認中' : '尚未確認'} · 社群${communityPhase === 'ok' || communityPhase === 'partial' ? '已載入 ' + loaded + ' 款' : communityPhase === 'loading' ? '確認中' : '尚未確認'}`;
+    const visible = C.filter(builtins,store.selected()), ready = visible.filter(item => item.status !== 'paused').length, paused = visible.length-ready, loaded = store.items().length;
+    $('library-count').textContent = `內建${catalogPhase === 'ok' ? '可玩 ' + ready + ' 款' + (paused ? ' · 整理中 ' + paused + ' 款' : '') : catalogPhase === 'loading' ? '確認中' : '尚未確認'} · 社群${communityPhase === 'ok' || communityPhase === 'partial' ? '已載入 ' + loaded + ' 款' : communityPhase === 'loading' ? '確認中' : '尚未確認'}`;
   }
   function renderBuiltins() {
     const list = $('builtin-games'), visible = C.filter(builtins,store.selected()); list.replaceChildren();
     for (const item of visible) {
       const link = node('a',undefined,'arcade-game-card'); link.href = item.url;
-      const art = cover(item,'arcade-cover'); art.append(node('span','PLAY NOW','arcade-live'));
+      const art = cover(item,'arcade-cover'); art.append(node('span',item.status === 'paused' ? '題庫整理中' : 'PLAY NOW','arcade-live'));
       const copy = node('div',undefined,'arcade-card-copy'), tags = node('div',undefined,'arcade-card-tags'); tags.append(node('span',labels(item.subjectIds))); for (const tag of item.tags) tags.append(node('span',tag));
-      const row = node('div',undefined,'arcade-play-row'); row.append(node('span','前往原站遊玩'),node('b','↗')); row.lastChild.setAttribute('aria-hidden','true');
-      copy.append(tags,node('h3',item.title),node('p',item.id==='su-quotes-quiz'?'精選題庫重新整理中。先閱讀已核對來源的形象與言行對照。':item.summary),row);if(item.id==='su-quotes-quiz'){art.querySelector('.arcade-live').textContent='題庫整理中';row.firstChild.textContent='查看題庫狀態';} link.append(art,copy); list.append(link);
+      const row = node('div',undefined,'arcade-play-row'); row.append(node('span',item.status === 'paused' ? '查看整理進度' : '前往原站遊玩'),node('b','↗')); row.lastChild.setAttribute('aria-hidden','true');
+      copy.append(tags,node('h3',item.title),node('p',item.summary),row); link.append(art,copy); list.append(link);
     }
     $('builtin-empty').hidden = visible.length !== 0;
     $('builtin-empty').textContent = catalogPhase === 'loading' ? '正在確認共用遊戲目錄…' : catalogPhase !== 'ok' ? '目前無法確認內建遊戲資料。' : store.selected() === 'all' ? '目前沒有可確認的內建遊戲資料。' : `目前沒有 ${C.SUBJECTS[store.selected()]} 的內建遊戲；下方仍可查看經發布的社群投稿。`;
@@ -54,7 +54,7 @@
     let result = null, offline = false;
     const preview = ['127.0.0.1','localhost'].includes(location.hostname) && new URLSearchParams(location.search).get('catalog') === 'local';
     if (!preview) { const cancel = new AbortController(), timer = setTimeout(() => cancel.abort(),6000); try { result = C.catalog(await json(C.CATALOG_URL,150000,cancel.signal)); } catch {} finally { clearTimeout(timer); } }
-    if (!result) { offline = true; try { result = C.catalog(await json('/data/game-catalog.json?v=17',150000)); } catch {} }
+    if (!result) { offline = true; try { result = C.catalog(await json('/data/game-catalog.json?v=30',150000)); } catch {} }
     if (result) { catalogPhase = 'ok'; builtins = result.games; $('catalog-status').textContent = offline ? `目前顯示本站離線備份（快照 ${result.snapshotAt}），尚未確認中央目錄最新狀態。` : `兩站共用中央遊戲目錄 · 目錄快照 ${result.snapshotAt}。人物觀測原始資料仍由各站分別維護。`; $('catalog-status').classList.toggle('library-offline',offline); }
     else { catalogPhase = 'unavailable'; $('catalog-status').textContent = '中央目錄與本站備份暫時無法讀取，不能確認目前的內建遊戲。'; }
     renderBuiltins();
@@ -91,7 +91,9 @@
     if (!C.person(value)) return;
     controller?.abort(); loading = false; store.select(value); nextOffset = 0; hasMore = false; communityPhase = 'loading'; $('community-more').hidden = true;
     const url = new URL(location.href); url.searchParams.set('person',value); history.replaceState(null,'',url.pathname + url.search);
-    for (const link of document.querySelectorAll('[data-contribute-game]')) link.href = '/contribute/?type=game' + (value === 'all' ? '' : '&subject=' + encodeURIComponent(value));
+    for (const [selector,type] of [['[data-contribute-game]','game'],['[data-contribute-idea]','idea']]) {
+      for (const link of document.querySelectorAll(selector)) link.href = C.CENTRAL_ORIGIN + '/contribute/?type=' + type + (value === 'all' ? '' : '&subject=' + encodeURIComponent(value));
+    }
     renderBuiltins(); renderCommunity();
     if (api) loadPage();
   }
@@ -99,7 +101,7 @@
   choose(initial); loadCatalog();
   (async () => {
     try {
-      const config = await json('/contribute/config.json?v=17',8000);
+      const config = await json(C.CENTRAL_ORIGIN + '/contribute/config.json?v=30',8000);
       if (config.apiUrl !== C.API_URL) throw new Error('not_configured'); api = C.API_URL; await loadPage();
     } catch { communityPhase = 'unavailable'; $('community-status').textContent = '社群收件與清單目前尚未連線，沒有載入投稿，也不顯示假造資料。'; counts(); }
   })();

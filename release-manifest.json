@@ -1,11 +1,11 @@
 {
-  "release": "huiao-new-taipei-v3",
+  "release": "huiao-new-taipei-v4",
   "siteCanonical": "https://huiao-new-taipei.github.io/",
   "releaseDate": "2026-10-22",
   "sourceFileCount": 32,
   "payloadFileCountExcludingManifest": 34,
   "manifestSelfExcluded": true,
-  "previousRelease": "huiao-new-taipei-v1",
+  "previousRelease": "huiao-new-taipei-v3",
   "deploymentStatus": "Verification receipt is private and records the exact deployed revision.",
   "counts": {
     "primary": 39,
@@ -109,8 +109,8 @@
     },
     {
       "path": "data/game-catalog.json",
-      "bytes": 1324,
-      "sha256": "8b71e034116d6ad49bce5846085b73a82c16fd56e48dfb67019cf92a20519768"
+      "bytes": 1995,
+      "sha256": "b7fc2f6d8d6d55071d011ea5f7319706a3f66d900251af8a4ca2e3e9940583d0"
     },
     {
       "path": "data/policy.json",
@@ -139,23 +139,23 @@
     },
     {
       "path": "game/hub.css",
-      "bytes": 15765,
-      "sha256": "0aba9ca0ec9ba21bb859f3b1afc3258136d608d7e9f5c7c334b112fc5e49774a"
+      "bytes": 16270,
+      "sha256": "ea7581502925e1fa1c755bfefa948a352da3d70d8103135cca04095eddec0b1d"
     },
     {
       "path": "game/index.html",
-      "bytes": 5130,
-      "sha256": "76df1601c83567077cf0d755c61e4dcfcd37f945f9afe014bb7587f73fd1a97b"
+      "bytes": 5433,
+      "sha256": "53709bcadb8d66f4be8ebe431ed8d049246cc8878e2431406533f9fd688974b0"
     },
     {
       "path": "game/library-core.js",
-      "bytes": 6911,
-      "sha256": "ff367a65ebec98f1ea3c44743dc18aec30112f13c1d42f65fd3794c1aa2882fb"
+      "bytes": 7186,
+      "sha256": "b93838f42837f5eb6fff05cf028005c463f128d9af6b80869ec8f61ae792f338"
     },
     {
       "path": "game/library.js",
-      "bytes": 10184,
-      "sha256": "e159041ac8ab3465f69891a24557a7d3e2b8e35e4a37b70a4775170c62e547de"
+      "bytes": 10312,
+      "sha256": "820ca6680b82827f9e92c39a8e06619004686c086a3799f5acf47d7067ab92d7"
     },
     {
       "path": "game/quiz-engine.js",
@@ -203,5 +203,5 @@
       "sha256": "93cdcf71697465f79d3fed3eca833bff8ea0422a8983a87fb5d70b0d9357c93c"
     }
   ],
-  "revision": "v3-final"
+  "revision": "v4"
 }
